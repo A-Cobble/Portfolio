@@ -1,0 +1,62 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5em;
+    font-size: 2em;
+    height: 25em;
+    padding-left: 7em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+}
+
+.words{
+    z-index: 1;
+    width: fit-content;
+}
+
+.myName{
+    color: #0075FF;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    font-weight: 700;
+    width: fit-content;
+    z-index: 1;
+}
+
+.btnContainer{
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+    margin-top: .75em;
+}
+
+.projectBtn{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.65rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.05em;
+    z-index: 1;
+}
+
+.resumeBtn{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.65rem;
+    margin-left: 0.5rem;
+    letter-spacing: 0.05em;
+    z-index: 1;
+}
+
+.linkTag{
+    display: flex;
+}

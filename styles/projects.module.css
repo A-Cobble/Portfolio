@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    z-index: 1;
+}
+
+.container1{
+    z-index: 1;
+}
+
+.container2{
+    z-index: 1;
+}
+
+.carouselContainer{
+    z-index: 1;
+}
+
+.carouselCenter{
+    border: 1px solid blue;
+    z-index: 2;
+}
+
+.carouselLeft{
+    border: 1px solid red;
+    z-index: 2;
+}
+
+.carouselRight{
+    border: 1px solid green;
+    z-index: 2;
+}
