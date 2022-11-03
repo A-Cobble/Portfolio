@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../styles/home.module.css'
 import Link from "next/link"
 import BackgroundEffect from "../BackgroundEffect"
+import Image from "next/image"
 
 const HomePage = () => {
     return (
@@ -154,6 +155,24 @@ const HomePage = () => {
                     <Link href="/resume" className={styles.linkTag}>
                         <button type='button' className={styles.resumeBtn}>Resume</button>
                     </Link>
+                </div>
+            </div>
+            <div className={styles.iconContainer}>
+                <div className={styles.iconContainer1}>
+                    <a className={styles.linkedInIcon} href='https://www.linkedin.com/in/alexandercobble/'>
+                        <svg height="16px"viewBox="0 0 32 32" width="16px">
+                            <g>
+                                <rect fill="#fff" height="23" width="7" y="9"/>
+                                <path d="M24.003,9C20,9,18.89,10.312,18,12V9h-7v23h7V19c0-2,0-4,3.5-4s3.5,2,3.5,4v13h7V19C32,13,31,9,24.003,9z" fill="#fff"/>
+                                <circle cx="3.5" cy="3.5" fill="#fff" r="3.5"/>
+                            </g>
+                        </svg>
+                    </a>
+                    <a className={styles.gitHubIcon} href='https://github.com/A-Cobble'>
+                        <Image src="/GitHub-Icon.png" width={20} height={20}></Image>
+                    </a>
+                    <a className={styles.emailLink} href='mailto:alex.cobble42@gmail.com'>alex.cobble42@gmail.com</a>
+                    <div className={styles.line} ></div>
                 </div>
             </div>
         </div>
