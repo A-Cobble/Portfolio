@@ -5,27 +5,43 @@
 
 .container1{
     z-index: 1;
+    margin: 0 auto;
 }
 
 .container2{
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    min-width: 42em;
 }
 
 .carouselContainer{
     z-index: 1;
+    display: flex;
 }
 
 .carouselCenter{
     border: 1px solid blue;
     z-index: 2;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
 }
 
-.carouselLeft{
+.carouselContainer1{
     border: 1px solid red;
-    z-index: 2;
+    z-index: 1;
+    width: 50em;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
 }
 
 .carouselRight{
     border: 1px solid green;
-    z-index: 2;
+    z-index: 1;
+    width: 20em;
+    display: flex;
+    justify-content: center;
 }

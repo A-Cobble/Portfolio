@@ -5,8 +5,8 @@ import BackgroundEffect from './BackgroundEffect'
 const Layout = ({ children }) => {
   return (
     <>
-        <Header />
         <BackgroundEffect />
+        <Header />
         {children}
     </>
   )
