@@ -1,10 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { PrevButton, NextButton } from "./EmblaCarouselButtons";
 import useEmblaCarousel from "embla-carousel-react";
-import slide1 from "../../public/images/Dragon-statues.jpeg";
-import slide2 from "../../public/images/forgotten.jpeg";
-import slide3 from "../../public/images/Knight.jpeg";
-import slide4 from "../../public/images/Ranger.jpeg";
 import styles from "../../styles/embla.module.css";
 import { mediaByIndex } from "../../public/images/index";
 import Image from "next/image"
@@ -22,7 +18,6 @@ const EmblaCarousel = () => {
   
   const SLIDE_COUNT = 4;
   const slides = Array.from(Array(SLIDE_COUNT).keys());
-  // const carouselSlides = [{image:slide1, key:1}, {image:slide2, key:2}, {image:slide3, key:3}, {image:slide4, key:4}]
 
   const onSelect = useCallback(() => {
     if (!embla) return;

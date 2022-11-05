@@ -8,14 +8,7 @@ const ProjectsPage = () => {
   return (
     <div className={styles.container1}>
       <div className={styles.container2}>
-        {/* <div className={styles.carouselContainer}> */}
-          {/* <div className={styles.carouselContainer1}> */}
-            {/* <div className={styles.carouselCenter}>
-              project 1 carousel */}
-              <EmblaCarousel />
-            {/* </div> */}
-          {/* </div> */}
-        {/* </div> */}
+        <EmblaCarousel />
       </div>
       <div className={styles.firstProject}>
         <div>project 1 image</div>
