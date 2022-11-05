@@ -1,9 +1,10 @@
 .embla {
   position: relative;
-  background-color: #7280ff;
+  background-color: #000000;
   border-radius: 10px;
   padding: 20px;
   max-width: 1000px;
+  border: 3px solid blue;
 }
 
 .embla__viewport {
