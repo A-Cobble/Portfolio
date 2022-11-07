@@ -63,9 +63,9 @@ const AboutMe = () => {
                 </g>
             </svg>
           </a>
-          <a className={styles1.emailLink} href='mailto:alex.cobble42@gmail.com'>
+          {/* <a className={styles1.emailLink} href='mailto:alex.cobble42@gmail.com'>
             alex.cobble42@gmail.com
-          </a>
+          </a> */}
           <div className={styles1.line}></div>
         </div>
       </div>

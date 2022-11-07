@@ -57,6 +57,10 @@
     /* font-size: 1.2em; */
 }
 
+.emailLink:hover{
+    color: blue;
+}
+
 .line{
     border-left: 1px solid grey;
     padding: 10px;
@@ -86,25 +90,41 @@
 }
 
 .projectBtn{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0);
     color: white;
     font-size: 1.2rem;
     margin-top: 0.65rem;
     margin-right: 0.5rem;
     letter-spacing: 0.05em;
     z-index: 1;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.projectBtn:hover{
+    background-color: blue;
 }
 
 .resumeBtn{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0);
     color: white;
     font-size: 1.2rem;
     margin-top: 0.65rem;
     margin-left: 0.5rem;
     letter-spacing: 0.05em;
     z-index: 1;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.resumeBtn:hover{
+    background-color: blue;
 }
 
 .linkTag{
     display: flex;
+}
+
+.gitHubIconHover:hover{
+    fill: blue;
 }
