@@ -6,6 +6,7 @@ import styles1 from "../../styles/home.module.css"
 const AboutMe = () => {
   return (
     <div className={styles.container1}>
+      <div className={styles.aboutContainer}>
        <div className={styles.textContainer}>
             <div className={styles.introText}>
                 {"I'm a Full Stack software engineer / web developer located in Washington State."}
@@ -31,7 +32,8 @@ const AboutMe = () => {
             </div>
         </div>
         <div className={styles.picContainer}>
-            <Image alt="profile picture" className={styles.profilePic} src="/profile-pic.jpg" width={480} height={480}></Image>
+            <Image alt="profile picture" className={styles.profilePic} src="/profile-pic.png" width={300} height={375} />
+        </div>
         </div>
         <div className={styles1.iconContainer}>
         <div className={styles1.iconContainer1}>

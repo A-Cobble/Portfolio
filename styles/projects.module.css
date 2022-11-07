@@ -21,41 +21,110 @@
     display: flex;
 }
 
-.firstProject{
+.projectsContainer{
     margin-top: 5em;
-    border: 1px solid white;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.firstProject{
+    /* border: 1px solid white; */
+    display: flex;
+    padding: 10px;
+    background-color: rgb(23, 39, 92);
+    border-radius: 5px;
 }
 
 .secondProject{
     margin-top: 5em;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(23, 39, 92);
+    border-radius: 5px;
+
 }
 .thirdProject{
     margin-top: 5em;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
-    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(23, 39, 92);
+    border-radius: 5px;
 }
 .fourthProject{
     margin-top: 5em;
-    border: 1px solid white;
+    margin-bottom: 5em;
+    /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(23, 39, 92);
+    border-radius: 5px;
 }
 
 .image1{
     border: 1px solid white;
+    margin-right: 1.5rem;
 }
 .image2{
     border: 1px solid white;
 }
 .image3{
     border: 1px solid white;
+    margin-right: 1.5rem;
 }
 .image4{
     border: 1px solid white;
+}
+
+.projectName{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 1.2rem;
+}
+
+.projectDescription{
+    margin-bottom: 1.2rem;
+}
+
+.gitHubRepo{
+    border: 0;
+    background-color: rgb(34, 0, 255);
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+}
+/* 
+.gitHubRepo1{
+    border: 0;
+    background-color: rgb(34, 0, 255);
+    border-radius: 5px;
+    color: white;
+}
+.gitHubRepo2{
+    border: 0;
+    background-color: rgb(34, 0, 255);
+    border-radius: 5px;
+    color: white;
+}
+.gitHubRepo3{
+    border: 0;
+    background-color: rgb(34, 0, 255);
+    border-radius: 5px;
+    color: white;
+} */
+
+.btnContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.projectDemo{
+    border: 0;
+    background-color: rgb(34, 0, 255);
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
 }

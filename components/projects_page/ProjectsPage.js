@@ -11,18 +11,38 @@ const ProjectsPage = () => {
       <div className={styles.container2}>
         <EmblaCarousel />
       </div>
-      <div>
+      <div className={styles.projectsContainer}>
         <div className={styles.firstProject}>
           <div className={styles.image1}>
             <Image src={media[0]} width={200} height={100} alt="Instructor Hub project" />
           </div>
-          <div>project 1 description
-            <button>link to github code for project 1</button>
+          <div>
+            <div className={styles.projectName}>
+              Instructor Hub
+            </div>
+            <div className={styles.projectDescription}>
+              Description of Instructor Hub here!
+            </div>
+            <div className={styles.btnContainer}>
+              <button className={styles.gitHubRepo}>GitHub Repo</button>
+              <span>{" | "}</span>
+              <button className={styles.projectDemo}>Project Demo</button>
+            </div>
           </div>
         </div>
         <div className={styles.secondProject}>
-          <div>project 2 description
-            <button>link to github code for project 2</button>
+          <div>
+            <div className={styles.projectName}>
+              Steam Clone
+            </div>
+            <div className={styles.projectDescription}>
+              Description of Steam Clone
+            </div>
+            <div className={styles.btnContainer}>
+              <button className={styles.gitHubRepo}>GitHub Repo</button>
+              <span>{" | "}</span>
+              <button className={styles.projectDemo}>Project Demo</button>
+            </div>
           </div>
           <div className={styles.image2}>
             <Image src={media[1]} width={200} height={100} alt="Steam Clone project" />
@@ -33,13 +53,32 @@ const ProjectsPage = () => {
             <Image src={media[2]} width={200} height={100} alt="Asteroids Game project" />
           </div>
           <div>
-            project 3 description
-            <button>link to github code for project 3</button>
+            <div className={styles.projectName}>
+              Asteroids Game
+            </div>
+            <div className={styles.projectDescription}>
+              Description of my Asteroids Game
+            </div>
+            <div className={styles.btnContainer}>
+              <button className={styles.gitHubRepo}>GitHub Repo</button>
+              <span>{" | "}</span>
+              <button className={styles.projectDemo}>Project Demo</button>
+            </div>
           </div>
         </div>
         <div className={styles.fourthProject}>
-          <div>project 4 description
-            <button>link to github code for project 4</button>
+          <div>
+            <div className={styles.projectName}>
+              D&D Character Sheet
+            </div>
+            <div className={styles.projectDescription}>
+              Description of the dungeons and dragons character sheet.
+            </div>
+            <div className={styles.btnContainer}>
+              <button className={styles.gitHubRepo}>GitHub Repo</button>
+              <span>{" | "}</span>
+              <button className={styles.projectDemo}>Project Demo</button>
+            </div>
           </div>
           <div className={styles.image4}>
             <Image src={media[3]} width={200} height={100} alt="Dungeons & Dragons Character Sheet project" />
