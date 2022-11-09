@@ -54,6 +54,7 @@
     padding: 10px;
     writing-mode: vertical-rl;
     color: grey;
+    user-select: none;
     /* font-size: 1.2em; */
 }
 
@@ -90,35 +91,41 @@
 }
 
 .projectBtn{
-    background-color: rgba(0, 0, 255, 0);
-    color: white;
+    background-color: black;
+    color: rgb(255, 0, 150);
     font-size: 1.2rem;
     margin-top: 0.65rem;
     margin-right: 0.5rem;
     letter-spacing: 0.05em;
     z-index: 1;
-    border: 2px solid blue;
+    border: 0;
+    /* border: 2px solid blue; */
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .projectBtn:hover{
-    background-color: blue;
+    background-color: black;
+    border: 2px solid blue;
 }
 
 .resumeBtn{
-    background-color: rgba(0, 0, 255, 0);
-    color: white;
+    background-color:black;
+    color: rgb(255, 0, 150);
     font-size: 1.2rem;
     margin-top: 0.65rem;
     margin-left: 0.5rem;
     letter-spacing: 0.05em;
     z-index: 1;
-    border: 2px solid blue;
+    border: 0;
+    /* border: 2px solid blue; */
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .resumeBtn:hover{
-    background-color: blue;
+    background-color: black;
+    border: 2px solid blue;
 }
 
 .linkTag{

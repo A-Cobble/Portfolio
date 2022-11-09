@@ -4,6 +4,12 @@ import styles1 from "../../styles/home.module.css"
 import Image from 'next/image'
 
 const ContactMe = () => {
+
+  const submitted = (e) => {
+    e.preventDefault();
+
+  }
+
   return (
     <div className={styles.container1}>
       <div className={styles.text}>
@@ -16,6 +22,14 @@ const ContactMe = () => {
         <a href="mailto:alex.cobble42@gmail.com" className={styles.emailBtn}>
           Reach Out
         </a>
+        {/* <div className={styles.formContainer}>
+          <form className={styles.contactForm} onSubmit={submitted}>
+            <input className={styles.inputEmail} type="email" placeholder="Email" required onChange={(e) => emailInput(e)}></input>
+            <input type="text" className={styles.inputSubject} placeholder="Subject" onChange={(e) => subjectInput(e)}></input>
+            <textarea type="text" className={styles.textareaMessage} placeholder='Message' required onChange={(e) => messageField(e)}></textarea>
+            <button className={styles.formBtn} type='submit' onSubmit={submitted}>Send Message</button>
+          </form>
+        </div> */}
       </div>
       <div className={styles1.iconContainer}>
         <div className={styles1.iconContainer1}>
@@ -45,9 +59,9 @@ const ContactMe = () => {
               </g>
             </svg>
           </a>
-          {/* <a className={styles1.emailLink} href='mailto:alex.cobble42@gmail.com'>
+          <a className={styles1.emailLink} href='mailto:alex.cobble42@gmail.com'>
             alex.cobble42@gmail.com
-          </a> */}
+          </a>
           <div className={styles1.line}></div>
         </div>
       </div>

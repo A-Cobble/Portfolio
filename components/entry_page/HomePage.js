@@ -155,10 +155,10 @@ const HomePage = () => {
                     <Link href="/projects" className={styles.linkTag}>
                         <button type='button' className={styles.projectBtn}>Projects</button>
                     </Link>
-                    {/* <span className={styles.words}>{" | "}</span>
-                    <Link href="/resume" className={styles.linkTag}>
+                    <span className={styles.words}>{" | "}</span>
+                    <a href="../../resume.pdf" target="_blank" className={styles.linkTag}>
                         <button type='button' className={styles.resumeBtn}>Resume</button>
-                    </Link> */}
+                    </a>
                 </div>
             </div>
             <div className={styles.iconContainer}>
@@ -189,7 +189,7 @@ const HomePage = () => {
                         </g>
                     </svg>
                     </a>
-                    {/* <a className={styles.emailLink} href='mailto:alex.cobble42@gmail.com'>alex.cobble42@gmail.com</a> */}
+                    <a className={styles.emailLink} href='mailto:alex.cobble42@gmail.com'>alex.cobble42@gmail.com</a>
                     <div className={styles.line} ></div>
                 </div>
             </div>

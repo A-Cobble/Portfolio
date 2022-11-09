@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className={styles.aboutContainer}>
        <div className={styles.textContainer}>
             <div className={styles.introText}>
-                {"I'm a Full Stack software engineer / web developer located in Washington State."}
+                {"I'm a Full Stack software engineer and web developer located in Washington State."}
             </div>
             <div className={styles.bioText}>
                 {`Driven and enthusiastic software engineer with a background in electronics troubleshooting and teamwork.
@@ -63,9 +63,9 @@ const AboutMe = () => {
                 </g>
             </svg>
           </a>
-          {/* <a className={styles1.emailLink} href='mailto:alex.cobble42@gmail.com'>
+          <a className={styles1.emailLink} href='mailto:alex.cobble42@gmail.com'>
             alex.cobble42@gmail.com
-          </a> */}
+          </a>
           <div className={styles1.line}></div>
         </div>
       </div>

@@ -43,3 +43,47 @@
 .emailBtn:hover{
     background-color: rgb(0, 35, 150);
 }
+
+.formContainer{
+    display: flex;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputEmail{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 20rem;
+}
+
+.inputSubject{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 20rem;
+}
+
+.textareaMessage{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    height: 7.5em;
+    padding: 10px;
+}
+
+.formBtn{
+    background-color: black;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 20rem;
+}
+
+.formBtn:hover{
+    background-color: blue;
+}

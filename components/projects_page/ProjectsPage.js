@@ -14,19 +14,27 @@ const ProjectsPage = () => {
       <div className={styles.projectsContainer}>
         <div className={styles.firstProject}>
           <div className={styles.image1}>
-            <Image src={media[0]} width={200} height={100} alt="Instructor Hub project" />
+            <Image src={media[0]} width={300} height={150} alt="Instructor Hub project" />
           </div>
           <div>
             <div className={styles.projectName}>
               Instructor Hub
             </div>
             <div className={styles.projectDescription}>
-              Description of Instructor Hub here!
+              <p>
+                {`Technologies Used: Next.js, React, JavaScript, Axios, Recoil, PostgreSQL, CSS`}
+                <br />
+                {`Hosted on: Render`}
+                <br />
+                <br />
+                {`Led a team of 10 as the product manager to develop a full-stack application that integrates with a third-party API, 
+                to streamline the process of updating and tracking students.`}
+              </p>
             </div>
             <div className={styles.btnContainer}>
-              <button className={styles.gitHubRepo}>GitHub Repo</button>
-              <span>{" | "}</span>
-              <button className={styles.projectDemo}>Project Demo</button>
+              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/instructor-hub" target="_blank">GitHub Repo</a>
+              <span className={styles.divider}>{" | "}</span>
+              <a className={styles.projectDemo} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank">Project Demo</a>
             </div>
           </div>
         </div>
@@ -36,33 +44,49 @@ const ProjectsPage = () => {
               Steam Clone
             </div>
             <div className={styles.projectDescription}>
-              Description of Steam Clone
+              <p>
+                {`Technologies Used: Next.js, React, Axios, Recoil, TailwindCSS, PostgreSQL, Trello`}
+                <br/>
+                {`Hosted On: Render`}
+                <br/>
+                <br/>
+                {`Led a team of 5 software developers, as the team lead, to create a full-stack clone of store.steampowered.com's website focusing on front-end
+                  design.`}
+                {/* {`The goal of this application was to create a full-stack web page clone focusing on front-end design. As the team lead, 
+                I analyzed the project and broke it down into its main components, immediately identifying the high-value areas as well 
+                as areas where problems were most likely to occur.`} */}
+              </p>
             </div>
             <div className={styles.btnContainer}>
-              <button className={styles.gitHubRepo}>GitHub Repo</button>
-              <span>{" | "}</span>
-              <button className={styles.projectDemo}>Project Demo</button>
+              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Steam-Clone" target="_blank">GitHub Repo</a>
+              <span className={styles.divider}>{" | "}</span>
+              <a className={styles.projectDemo} href="https://steam-clone-zqr0.onrender.com/" target="_blank">Project Demo</a>
             </div>
           </div>
           <div className={styles.image2}>
-            <Image src={media[1]} width={200} height={100} alt="Steam Clone project" />
+            <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
           </div>
         </div>
         <div className={styles.thirdProject}>
           <div className={styles.image3}>
-            <Image src={media[2]} width={200} height={100} alt="Asteroids Game project" />
+            <Image src={media[2]} width={300} height={150} alt="Asteroids Game project" />
           </div>
           <div>
             <div className={styles.projectName}>
               Asteroids Game
             </div>
             <div className={styles.projectDescription}>
-              Description of my Asteroids Game
+              <p>
+                {`Technologies Used: Reactjs, JavaScript, HTML, CSS`}
+                <br />
+                <br/>
+                {`Created a replica of the 1979 Asteroids game by Atari, inc.`}
+              </p>
             </div>
             <div className={styles.btnContainer}>
-              <button className={styles.gitHubRepo}>GitHub Repo</button>
-              <span>{" | "}</span>
-              <button className={styles.projectDemo}>Project Demo</button>
+              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/react-game/tree/main/react-game" target="_blank">GitHub Repo</a>
+              {/* <span className={styles.divider}>{" | "}</span>
+              <a className={styles.projectDemo}>Project Demo</a> */}
             </div>
           </div>
         </div>
@@ -72,16 +96,22 @@ const ProjectsPage = () => {
               D&D Character Sheet
             </div>
             <div className={styles.projectDescription}>
-              Description of the dungeons and dragons character sheet.
+              <p>
+                {`Technologies Used: React, JavaScript, HTML, CSS, Express, SQL`}
+                <br />
+                <br />
+                {`A full-stack application that allows the user create D&D character sheets, update the current one as they play, 
+                and save it for their next game night.`}
+              </p>
             </div>
             <div className={styles.btnContainer}>
-              <button className={styles.gitHubRepo}>GitHub Repo</button>
-              <span>{" | "}</span>
-              <button className={styles.projectDemo}>Project Demo</button>
+              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Full-Stack-Project" target="_blank">GitHub Repo</a>
+              <span className={styles.divider}>{" | "}</span>
+              <a className={styles.projectDemo} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank">Project Demo</a>
             </div>
           </div>
           <div className={styles.image4}>
-            <Image src={media[3]} width={200} height={100} alt="Dungeons & Dragons Character Sheet project" />
+            <Image src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
           </div>
         </div>
       </div>
@@ -113,9 +143,9 @@ const ProjectsPage = () => {
               </g>
             </svg>
           </a>
-          {/* <a className={styles1.emailLink} href='mailto:alex.cobble42@gmail.com'>
+          <a className={styles1.emailLink} href='mailto:alex.cobble42@gmail.com'>
             alex.cobble42@gmail.com
-          </a> */}
+          </a>
           <div className={styles1.line}></div>
         </div>
       </div>

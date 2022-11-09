@@ -65,18 +65,26 @@
 }
 
 .image1{
-    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
     margin-right: 1.5rem;
 }
 .image2{
-    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
 }
 .image3{
-    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
     margin-right: 1.5rem;
 }
 .image4{
-    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
 }
 
 .projectName{
@@ -86,6 +94,7 @@
 }
 
 .projectDescription{
+    width: 41rem;
     margin-bottom: 1.2rem;
 }
 
@@ -95,6 +104,7 @@
     border-radius: 5px;
     color: white;
     margin-right: 5px;
+    padding: 5px;
 }
 /* 
 .gitHubRepo1{
@@ -127,4 +137,11 @@
     border-radius: 5px;
     color: white;
     margin-left: 5px;
+    padding: 5px;
+}
+
+.divider{
+    line-height: 1.0em;
+    font-size: 1.5em;
+    user-select: none;
 }
