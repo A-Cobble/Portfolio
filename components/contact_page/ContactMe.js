@@ -1,13 +1,28 @@
-import React from 'react'
+import { useState } from 'react'
 import styles from "../../styles/contact.module.css"
 import styles1 from "../../styles/home.module.css"
 import Image from 'next/image'
+import axios from "axios"
 
 const ContactMe = () => {
+  const [email, setEmail] = useState('') 
+  const [subject, setSubject] = useState('') 
+  const [message, setMessage] = useState('')
 
   const submitted = (e) => {
     e.preventDefault();
+    let data = { email, subject, message }
+    console.log("submitted")
 
+    axios.post('/api/contact', data).then((res) => {
+      console.log('res recieved')
+      if (res.status === 200){
+        console.log('res succeeded')
+        setEmail('')
+        setSubject('')
+        setMessage('')
+      }
+    })
   }
 
   return (
@@ -17,17 +32,17 @@ const ContactMe = () => {
           Contact Me
         </div>
         <div className={styles.text}>
-          {`Thank you for visiting my porfolio website. If you have any questions, or if think I would be a good fit for your team please reach out. I'll do my best to get back to you as soon as possible.`}
+          {`Thank you for visiting my porfolio website. If you have any questions, or if think I would be a good fit for your team please reach out. I'll will get back to you as soon as possible.`}
         </div>
         {/* <a href="mailto:alex.cobble42@gmail.com" className={styles.emailBtn}>
           Reach Out
         </a> */}
         <div className={styles.formContainer}>
-          <form className={styles.contactForm} onSubmit={submitted}>
-            <input className={styles.inputEmail} type="email" placeholder="Email" required onChange={(e) => emailInput(e)}></input>
-            <input type="text" className={styles.inputSubject} placeholder="Subject" onChange={(e) => subjectInput(e)}></input>
-            <textarea type="text" className={styles.textareaMessage} placeholder='Message' required onChange={(e) => messageField(e)}></textarea>
-            <button className={styles.formBtn} type='submit' onSubmit={submitted}>Send Message</button>
+          <form className={styles.contactForm} onSubmit={(e) => submitted(e)}>
+            <input className={styles.inputEmail} type="email" placeholder="Email" required onChange={(e) => setEmail(e.target.value)}></input>
+            <input type="text" className={styles.inputSubject} placeholder="Subject" onChange={(e) => setSubject(e.target.value)}></input>
+            <textarea type="text" className={styles.textareaMessage} placeholder='Message' required onChange={(e) => setMessage(e.target.value)}></textarea>
+            <button className={styles.formBtn} type='submit' onClick={(e) => submitted(e)}>Send Message</button>
           </form>
         </div>
       </div>

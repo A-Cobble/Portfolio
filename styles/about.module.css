@@ -55,6 +55,12 @@
     font-size: 1.3rem;
 }
 
-/* .picContainer{
-    
-} */
+.bioTitle{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.skillsTitle{
+    font-size: 2em;
+    font-weight: 500;
+}
