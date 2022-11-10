@@ -4,6 +4,7 @@ import styles1 from '../../styles/home.module.css'
 import Image from 'next/image'
 import EmblaCarousel from "./EmblaCarousel"
 import { media } from "../../public/images/index"
+import Link from "next/link"
 
 const ProjectsPage = () => {
   return (
@@ -14,9 +15,11 @@ const ProjectsPage = () => {
       <div className={styles.projectsContainer}>
         <div className={styles.firstProject}>
           <div className={styles.image1}>
-            <Image src={media[0]} width={300} height={150} alt="Instructor Hub project" />
+            <a href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank">
+              <Image className={styles.imageLinks} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
+            </a>
           </div>
-          <div>
+          <div className={styles.projectText}>
             <div className={styles.projectName}>
               Instructor Hub
             </div>
@@ -39,7 +42,7 @@ const ProjectsPage = () => {
           </div>
         </div>
         <div className={styles.secondProject}>
-          <div>
+          <div className={styles.projectText}>
             <div className={styles.projectName}>
               Steam Clone
             </div>
@@ -64,14 +67,18 @@ const ProjectsPage = () => {
             </div>
           </div>
           <div className={styles.image2}>
-            <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
+            <a href="https://steam-clone-zqr0.onrender.com/" target="_blank">
+              <Image className={styles.imageLinks} src={media[1]} width={300} height={150} alt="Steam Clone project" />
+            </a>
           </div>
         </div>
         <div className={styles.thirdProject}>
           <div className={styles.image3}>
-            <Image src={media[2]} width={300} height={150} alt="Asteroids Game project" />
+            <Link href="/asteroids">
+              <Image className={styles.imageLinks} src={media[2]} width={300} height={150} alt="Asteroids Game project" />
+            </Link>
           </div>
-          <div>
+          <div className={styles.projectText}>
             <div className={styles.projectName}>
               Asteroids Game
             </div>
@@ -85,13 +92,13 @@ const ProjectsPage = () => {
             </div>
             <div className={styles.btnContainer}>
               <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/react-game/tree/main/react-game" target="_blank">GitHub Repo</a>
-              {/* <span className={styles.divider}>{" | "}</span>
-              <a className={styles.projectDemo}>Project Demo</a> */}
+              <span className={styles.divider}>{" | "}</span>
+              <Link className={styles.projectDemo} href="/asteroids">Project Demo</Link>
             </div>
           </div>
         </div>
         <div className={styles.fourthProject}>
-          <div>
+          <div className={styles.projectText}>
             <div className={styles.projectName}>
               D&D Character Sheet
             </div>
@@ -111,7 +118,9 @@ const ProjectsPage = () => {
             </div>
           </div>
           <div className={styles.image4}>
-            <Image src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
+            <a href="https://guarded-citadel-95497.herokuapp.com/" target="_blank">
+              <Image className={styles.imageLinks} src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
+            </a>
           </div>
         </div>
       </div>

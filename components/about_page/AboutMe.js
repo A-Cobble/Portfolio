@@ -8,6 +8,8 @@ const AboutMe = () => {
     <div className={styles.container1}>
       <div className={styles.aboutContainer}>
        <div className={styles.textContainer}>
+        <div> Who am I?</div>
+        <br />
             <div className={styles.introText}>
                 {"I'm a Full Stack software engineer and web developer located in Washington State."}
             </div>

@@ -19,17 +19,17 @@ const ContactMe = () => {
         <div className={styles.text}>
           {`Thank you for visiting my porfolio website. If you have any questions, or if think I would be a good fit for your team please reach out. I'll do my best to get back to you as soon as possible.`}
         </div>
-        <a href="mailto:alex.cobble42@gmail.com" className={styles.emailBtn}>
+        {/* <a href="mailto:alex.cobble42@gmail.com" className={styles.emailBtn}>
           Reach Out
-        </a>
-        {/* <div className={styles.formContainer}>
+        </a> */}
+        <div className={styles.formContainer}>
           <form className={styles.contactForm} onSubmit={submitted}>
             <input className={styles.inputEmail} type="email" placeholder="Email" required onChange={(e) => emailInput(e)}></input>
             <input type="text" className={styles.inputSubject} placeholder="Subject" onChange={(e) => subjectInput(e)}></input>
             <textarea type="text" className={styles.textareaMessage} placeholder='Message' required onChange={(e) => messageField(e)}></textarea>
             <button className={styles.formBtn} type='submit' onSubmit={submitted}>Send Message</button>
           </form>
-        </div> */}
+        </div>
       </div>
       <div className={styles1.iconContainer}>
         <div className={styles1.iconContainer1}>

@@ -4,7 +4,7 @@
 }
 
 .container1{
-    z-index: 1;
+    /* z-index: 1; */
     margin: 0 auto;
 }
 
@@ -25,42 +25,51 @@
     margin-top: 5em;
     display: flex;
     flex-direction: column;
+    max-width: 1000px;
 }
 
 .firstProject{
     /* border: 1px solid white; */
+    height: 285px;
+    z-index: 1;
     display: flex;
-    padding: 10px;
-    background-color: rgb(23, 39, 92);
+    padding: 20px;
+    background-color: #0077ff4d;
     border-radius: 5px;
 }
 
 .secondProject{
-    margin-top: 5em;
+    margin-top: 2.5em;
+    height: 285px;
+    z-index: 1;
     /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    background-color: rgb(23, 39, 92);
+    padding: 20px;
+    background-color: #0077ff4d;
     border-radius: 5px;
 
 }
 .thirdProject{
-    margin-top: 5em;
+    margin-top: 2.5em;
+    height: 285px;
+    z-index: 1;
     /* border: 1px solid white; */
     display: flex;
-    padding: 10px;
-    background-color: rgb(23, 39, 92);
+    padding: 20px;
+    background-color: #0077ff4d;
     border-radius: 5px;
 }
 .fourthProject{
-    margin-top: 5em;
+    margin-top: 2.5em;
     margin-bottom: 5em;
+    height: 285px;
+    z-index: 1;
     /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    background-color: rgb(23, 39, 92);
+    padding: 20px;
+    background-color: #0077ff4d;
     border-radius: 5px;
 }
 
@@ -68,43 +77,67 @@
     display: flex;
     align-items: center;
     /* border: 1px solid white; */
-    margin-right: 1.5rem;
+    margin-right: 3rem;
 }
 .image2{
     display: flex;
     align-items: center;
+    margin-left: 3rem;
     /* border: 1px solid white; */
 }
 .image3{
     display: flex;
     align-items: center;
     /* border: 1px solid white; */
-    margin-right: 1.5rem;
+    margin-right: 3rem;
 }
 .image4{
     display: flex;
     align-items: center;
+    margin-left: 3rem;
     /* border: 1px solid white; */
+}
+
+.imageLinks{
+    border: 1px solid #0075FF;
+}
+
+.projectText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .projectName{
     font-size: 1.5rem;
-    text-decoration: underline;
     margin-bottom: 1.2rem;
 }
 
 .projectDescription{
-    width: 41rem;
+    /* width: 41rem; */
     margin-bottom: 1.2rem;
 }
 
 .gitHubRepo{
-    border: 0;
+    /* border: 0;
     background-color: rgb(34, 0, 255);
     border-radius: 5px;
     color: white;
     margin-right: 5px;
+    padding: 5px; */
+    color: white;
+    margin-right: 5px;
     padding: 5px;
+    border: 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gitHubRepo:hover{
+    background-color: black;
+    border: 1px solid #0075FF;
+    color: rgb(255, 0, 150);
 }
 /* 
 .gitHubRepo1{
@@ -132,16 +165,51 @@
 }
 
 .projectDemo{
-    border: 0;
-    background-color: rgb(34, 0, 255);
-    border-radius: 5px;
+    /* border: 0; */
+    /* background-color: rgb(34, 0, 255); */
+    /* border-radius: 5px; */
     color: white;
     margin-left: 5px;
     padding: 5px;
+    /* background-color: black; */
+    /* color: #0075FF; */
+    /* font-size: 1.2rem; */
+    /* margin-top: 0.65rem; */
+    /* margin-right: 0.5rem; */
+    /* letter-spacing: 0.05em; */
+    /* z-index: 1; */
+    border: 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.projectDemo:hover{
+    background-color: black;
+    border: 1px solid #0075FF;
+    color: rgb(255, 0, 150);
 }
 
 .divider{
     line-height: 1.0em;
     font-size: 1.5em;
     user-select: none;
+}
+
+.asteroidsContainer{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.gameBoard{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #0075FF;
+    margin-top: 10em;
+}
+
+.controls{
+    margin-top: 5em;
+    z-index: 1;
 }

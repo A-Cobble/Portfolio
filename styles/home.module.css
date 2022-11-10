@@ -59,7 +59,7 @@
 }
 
 .emailLink:hover{
-    color: blue;
+    color: #0075FF;
 }
 
 .line{
@@ -92,40 +92,42 @@
 
 .projectBtn{
     background-color: black;
-    color: rgb(255, 0, 150);
+    color: #0075FF;
     font-size: 1.2rem;
     margin-top: 0.65rem;
     margin-right: 0.5rem;
     letter-spacing: 0.05em;
     z-index: 1;
     border: 0;
-    /* border: 2px solid blue; */
+    border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .projectBtn:hover{
     background-color: black;
-    border: 2px solid blue;
+    border: 2px solid #0075FF;
+    color: rgb(255, 0, 150);
 }
 
 .resumeBtn{
     background-color:black;
-    color: rgb(255, 0, 150);
+    color: #0075FF;
     font-size: 1.2rem;
     margin-top: 0.65rem;
     margin-left: 0.5rem;
     letter-spacing: 0.05em;
     z-index: 1;
     border: 0;
-    /* border: 2px solid blue; */
+    border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .resumeBtn:hover{
     background-color: black;
-    border: 2px solid blue;
+    border: 2px solid #0075FF;
+    color: rgb(255, 0, 150);
 }
 
 .linkTag{
