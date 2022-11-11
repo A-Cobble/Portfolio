@@ -156,14 +156,14 @@ const HomePage = () => {
                         <button type='button' className={styles.projectBtn}>Projects</button>
                     </Link>
                     <span className={styles.words}>{" | "}</span>
-                    <a href="../../resume.pdf" target="_blank" className={styles.linkTag}>
+                    <a href="../../resume.pdf" target="_blank" rel="noreferrer" className={styles.linkTag}>
                         <button type='button' className={styles.resumeBtn}>Resume</button>
                     </a>
                 </div>
             </div>
             <div className={styles.iconContainer}>
                 <div className={styles.iconContainer1}>
-                    <a className={styles.linkedInIcon} href='https://www.linkedin.com/in/alexandercobble/'>
+                    <a className={styles.linkedInIcon} href='https://www.linkedin.com/in/alexandercobble/' target="_blank" rel="noreferrer">
                         <svg height="16px"viewBox="0 0 32 32" width="16px">
                             <g>
                                 <rect fill="grey" height="23" width="7" y="9"/>
@@ -172,7 +172,7 @@ const HomePage = () => {
                             </g>
                         </svg>
                     </a>
-                    <a className={styles.gitHubIcon} href='https://github.com/A-Cobble'>
+                    <a className={styles.gitHubIcon} href='https://github.com/A-Cobble' target="_blank" rel="noreferrer">
                     <svg height="20px" viewBox="0 0 496 512" width="20px">
                         <g>
                             <path className={styles.gitHubIconHover} fill="grey" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 

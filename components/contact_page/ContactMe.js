@@ -48,7 +48,7 @@ const ContactMe = () => {
       </div>
       <div className={styles1.iconContainer}>
         <div className={styles1.iconContainer1}>
-          <a className={styles1.linkedInIcon} href='https://www.linkedin.com/in/alexandercobble/'>
+          <a className={styles1.linkedInIcon} href='https://www.linkedin.com/in/alexandercobble/' target="_blank" rel="noreferrer">
             <svg height="16px"viewBox="0 0 32 32" width="16px">
               <g>
                 <rect fill="grey" height="23" width="7" y="9"/>
@@ -57,7 +57,7 @@ const ContactMe = () => {
               </g>
             </svg>
           </a>
-          <a className={styles1.gitHubIcon} href='https://github.com/A-Cobble'>
+          <a className={styles1.gitHubIcon} href='https://github.com/A-Cobble' target="_blank" rel="noreferrer">
             <svg height="20px" viewBox="0 0 496 512" width="20px">
               <g>
                 <path fill="grey" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 

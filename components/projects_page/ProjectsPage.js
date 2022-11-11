@@ -15,7 +15,7 @@ const ProjectsPage = () => {
       <div className={styles.projectsContainer}>
         <div className={styles.firstProject}>
           <div className={styles.image1}>
-            <a href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank">
+            <a href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">
               <Image className={styles.imageLinks} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
             </a>
           </div>
@@ -35,9 +35,9 @@ const ProjectsPage = () => {
               </p>
             </div>
             <div className={styles.btnContainer}>
-              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/instructor-hub" target="_blank">GitHub Repo</a>
+              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/instructor-hub" target="_blank" rel="noreferrer">GitHub Repo</a>
               <span className={styles.divider}>{" | "}</span>
-              <a className={styles.projectDemo} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank">Project Demo</a>
+              <a className={styles.projectDemo} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">Project Demo</a>
             </div>
           </div>
         </div>
@@ -61,13 +61,13 @@ const ProjectsPage = () => {
               </p>
             </div>
             <div className={styles.btnContainer}>
-              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Steam-Clone" target="_blank">GitHub Repo</a>
+              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Steam-Clone" target="_blank" rel="noreferrer">GitHub Repo</a>
               <span className={styles.divider}>{" | "}</span>
-              <a className={styles.projectDemo} href="https://steam-clone-zqr0.onrender.com/" target="_blank">Project Demo</a>
+              <a className={styles.projectDemo} href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">Project Demo</a>
             </div>
           </div>
           <div className={styles.image2}>
-            <a href="https://steam-clone-zqr0.onrender.com/" target="_blank">
+            <a href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">
               <Image className={styles.imageLinks} src={media[1]} width={300} height={150} alt="Steam Clone project" />
             </a>
           </div>
@@ -91,7 +91,7 @@ const ProjectsPage = () => {
               </p>
             </div>
             <div className={styles.btnContainer}>
-              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/react-game/tree/main/react-game" target="_blank">GitHub Repo</a>
+              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/react-game/tree/main/react-game" target="_blank" rel="noreferrer">GitHub Repo</a>
               <span className={styles.divider}>{" | "}</span>
               <Link className={styles.projectDemo} href="/asteroids">Project Demo</Link>
             </div>
@@ -112,13 +112,13 @@ const ProjectsPage = () => {
               </p>
             </div>
             <div className={styles.btnContainer}>
-              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Full-Stack-Project" target="_blank">GitHub Repo</a>
+              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Full-Stack-Project" target="_blank" rel="noreferrer">GitHub Repo</a>
               <span className={styles.divider}>{" | "}</span>
-              <a className={styles.projectDemo} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank">Project Demo</a>
+              <a className={styles.projectDemo} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">Project Demo</a>
             </div>
           </div>
           <div className={styles.image4}>
-            <a href="https://guarded-citadel-95497.herokuapp.com/" target="_blank">
+            <a href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">
               <Image className={styles.imageLinks} src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
             </a>
           </div>
