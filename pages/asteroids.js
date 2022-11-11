@@ -1,9 +1,13 @@
-import GameBoard from "../components/projects_page/AsteroidsGame"
+import dynamic from "next/dynamic"
+
+const DynamicAsteroids = dynamic(() => import('../components/projects_page/AsteroidsGame'), {
+  ssr: false,
+})
 
 const asteroids = () => {
   return (
     <div>
-        <GameBoard />
+        <DynamicAsteroids />
     </div>
   )
 }

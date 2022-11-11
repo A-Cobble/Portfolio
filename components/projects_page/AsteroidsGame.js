@@ -19,7 +19,7 @@ const GameBoard = (props) => {
   let SmlRoidPts = 100; // points scored for a small asteroid
   let SaveKeyScore = 'highscore'; //save key for local storage of high score
   const SoundOn = true;
-  const MusicOn = false;
+  const MusicOn = true;
 
   //Ship variables
   let ShipSize = 40;
@@ -43,7 +43,7 @@ const GameBoard = (props) => {
     y:0,
   }
   //Asteroid Variables
-  let AsteroidSpeed = 50; //max starting speed of asteroids in pixels/second
+  let AsteroidSpeed = 25; //max starting speed of asteroids in pixels/second
   let AsteroidSize = 100; // starting size of asteroids in pixels
   let AsteroidVert = 10; // average number of verticies on each asteroid
   const AsteroidJag = 0.3; // jaggedness of asteroids from (0 = none and 1 = lots)
@@ -92,7 +92,7 @@ const GameBoard = (props) => {
     this.soundLow = new Audio(srcLow);
     this.soundHigh = new Audio(srcHigh);
     this.low = true;
-    this.tempo = 1.0; // seconds per beat
+    this.tempo = 5.0; // seconds per beat
     this.beatTime = 0; // frames left until next beat
     this.play = function (){
       if(MusicOn){
@@ -105,7 +105,7 @@ const GameBoard = (props) => {
       }
     }
     this.setAsteroidRatio = function(ratio){
-      this.tempo = 1.0 - 0.75 * (1.0 - ratio);
+      this.tempo = 2.5 - 0.75 * (1.0 - ratio);
     }
     this.tick = function(){
       if (this.beatTime === 0){
