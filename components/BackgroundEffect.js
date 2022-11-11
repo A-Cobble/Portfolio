@@ -1,6 +1,6 @@
 import { useEffect,useState } from 'react'
 
-const backgroundEffect = () => {
+const BackgroundEffect = () => {
   const [canvas1, setCanvas] = useState(null)
     let config = {
         TEXTURE_DOWNSAMPLE: 1,
@@ -681,4 +681,4 @@ const backgroundEffect = () => {
   )
 }
 
-export default backgroundEffect
+export default BackgroundEffect
