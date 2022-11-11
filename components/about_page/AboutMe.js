@@ -13,12 +13,17 @@ const AboutMe = () => {
           </div>
           <br />
           <div className={styles.introText}>
-            {"I'm a Full Stack software engineer and web developer located in Washington State."}
+            {"I'm a full stack software engineer, web developer, and veteran located in Washington State."}
           </div>
+          <br/>
           <div className={styles.bioText}>
-            {`Driven and enthusiastic software engineer with a background in electronics troubleshooting and teamwork.
+            {`I am passionate about learning, problem-solving, and creating. After nine years in the US Navy, as a nuclear reactor operator, my creativity 
+            and interest were re-ignited after I researched Software Engineering. During the last few months I was in the military, I participated 
+            in a full-stack software engineering immersive program with Galvanize Inc that consisted of more than 1500 hours of programming experience. 
+            I am excited to work on new ambitious projects with positive people and learn more about all aspects of software engineering.`}
+            {/* {`Driven and enthusiastic software engineer with a background in electronics troubleshooting and teamwork.
             Experienced with fast-paced environments where leadership, integrity, and honesty are critical. Eager to take 
-            on new problems and push technology forward by continuing to learn and grow.`}
+            on new problems and push technology forward by continuing to learn and grow.`} */}
           </div>
           <div className={styles.allSkills}>
             <div className={styles.skillsTitle}>
