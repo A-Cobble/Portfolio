@@ -55,9 +55,6 @@ const ProjectsPage = () => {
                 <br/>
                 {`Led a team of 5 software developers, as the team lead, to create a full-stack clone of store.steampowered.com's website focusing on front-end
                   design.`}
-                {/* {`The goal of this application was to create a full-stack web page clone focusing on front-end design. As the team lead, 
-                I analyzed the project and broke it down into its main components, immediately identifying the high-value areas as well 
-                as areas where problems were most likely to occur.`} */}
               </p>
             </div>
             <div className={styles.btnContainer}>

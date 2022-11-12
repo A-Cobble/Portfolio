@@ -4,7 +4,6 @@
 }
 
 .container1{
-    /* z-index: 1; */
     margin: 0 auto;
 }
 
@@ -29,7 +28,6 @@
 }
 
 .firstProject{
-    /* border: 1px solid white; */
     height: 285px;
     z-index: 1;
     display: flex;
@@ -42,7 +40,6 @@
     margin-top: 2.5em;
     height: 285px;
     z-index: 1;
-    /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -54,7 +51,6 @@
     margin-top: 2.5em;
     height: 285px;
     z-index: 1;
-    /* border: 1px solid white; */
     display: flex;
     padding: 20px;
     background-color: #0077ff4d;
@@ -65,7 +61,6 @@
     margin-bottom: 5em;
     height: 285px;
     z-index: 1;
-    /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -76,26 +71,22 @@
 .image1{
     display: flex;
     align-items: center;
-    /* border: 1px solid white; */
     margin-right: 3rem;
 }
 .image2{
     display: flex;
     align-items: center;
     margin-left: 3rem;
-    /* border: 1px solid white; */
 }
 .image3{
     display: flex;
     align-items: center;
-    /* border: 1px solid white; */
     margin-right: 3rem;
 }
 .image4{
     display: flex;
     align-items: center;
     margin-left: 3rem;
-    /* border: 1px solid white; */
 }
 
 .imageLinks{
@@ -114,17 +105,10 @@
 }
 
 .projectDescription{
-    /* width: 41rem; */
     margin-bottom: 1.2rem;
 }
 
 .gitHubRepo{
-    /* border: 0;
-    background-color: rgb(34, 0, 255);
-    border-radius: 5px;
-    color: white;
-    margin-right: 5px;
-    padding: 5px; */
     color: white;
     margin-right: 5px;
     padding: 5px;
@@ -139,25 +123,6 @@
     border: 1px solid #0075FF;
     color: rgb(255, 0, 150);
 }
-/* 
-.gitHubRepo1{
-    border: 0;
-    background-color: rgb(34, 0, 255);
-    border-radius: 5px;
-    color: white;
-}
-.gitHubRepo2{
-    border: 0;
-    background-color: rgb(34, 0, 255);
-    border-radius: 5px;
-    color: white;
-}
-.gitHubRepo3{
-    border: 0;
-    background-color: rgb(34, 0, 255);
-    border-radius: 5px;
-    color: white;
-} */
 
 .btnContainer{
     display: flex;
@@ -165,19 +130,9 @@
 }
 
 .projectDemo{
-    /* border: 0; */
-    /* background-color: rgb(34, 0, 255); */
-    /* border-radius: 5px; */
     color: white;
     margin-left: 5px;
     padding: 5px;
-    /* background-color: black; */
-    /* color: #0075FF; */
-    /* font-size: 1.2rem; */
-    /* margin-top: 0.65rem; */
-    /* margin-right: 0.5rem; */
-    /* letter-spacing: 0.05em; */
-    /* z-index: 1; */
     border: 0;
     border: 1px solid white;
     border-radius: 5px;

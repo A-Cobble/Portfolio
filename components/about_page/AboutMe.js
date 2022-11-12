@@ -21,9 +21,6 @@ const AboutMe = () => {
             and interest were re-ignited after I researched Software Engineering. During the last few months I was in the military, I participated 
             in a full-stack software engineering immersive program with Galvanize Inc that consisted of more than 1500 hours of programming experience. 
             I am excited to work on new ambitious projects with positive people and learn more about all aspects of software engineering.`}
-            {/* {`Driven and enthusiastic software engineer with a background in electronics troubleshooting and teamwork.
-            Experienced with fast-paced environments where leadership, integrity, and honesty are critical. Eager to take 
-            on new problems and push technology forward by continuing to learn and grow.`} */}
           </div>
           <div className={styles.allSkills}>
             <div className={styles.skillsTitle}>
@@ -45,7 +42,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className={styles.picContainer}>
-          <Image alt="profile picture" className={styles.profilePic} src="/profile-pic.png" width={300} height={375} />
+          <Image alt="profile picture" className={styles.profilePic} src="/profile-pic2.png" width={300} height={375} />
         </div>
       </div>
       <div className={styles1.iconContainer}>

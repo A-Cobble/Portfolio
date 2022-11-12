@@ -36,13 +36,6 @@ const HomePage = () => {
                     <span>e</span>
                 </div>
                 <div className={styles.words}>
-                    {/* <span>I</span>
-                    <span>&nbsp;</span>
-                    <span>a</span>
-                    <span>m</span>
-                    <span>&nbsp;</span>
-                    <span>a</span>
-                    <span>&nbsp;</span> */}
                     <span>S</span>
                     <span>o</span>
                     <span>f</span>
@@ -60,7 +53,6 @@ const HomePage = () => {
                     <span>e</span>
                     <span>e</span>
                     <span>r</span>
-                    {/* <span>,</span> */}
                     <span>&nbsp;</span>
                     <span>|</span>
                     <span>&nbsp;</span>
@@ -77,14 +69,9 @@ const HomePage = () => {
                     <span>p</span>
                     <span>e</span>
                     <span>r</span>
-                    {/* <span>,</span> */}
                     <span>&nbsp;</span>
                     <span>|</span>
                     <span>&nbsp;</span>
-                    {/* <span>a</span>
-                    <span>n</span>
-                    <span>d</span>
-                    <span>&nbsp;</span> */}
                     <span>V</span>
                     <span>e</span>
                     <span>t</span>

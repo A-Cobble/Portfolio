@@ -47,7 +47,6 @@
 }
 
 .emailLink{
-    /* margin-top: 20px; */
     margin-bottom: 20px;
     text-decoration: underline;
     margin-right: 1.5em;
@@ -55,7 +54,6 @@
     writing-mode: vertical-rl;
     color: grey;
     user-select: none;
-    /* font-size: 1.2em; */
 }
 
 .emailLink:hover{

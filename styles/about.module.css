@@ -8,14 +8,12 @@
 .container1{
     display: flex;
     flex-direction: row;
-    /* z-index: 1; */
     align-items: center;
 }
 
 .aboutContainer{
     display: flex;
     margin-top: -2.5em;
-    /* align-items: center; */
 }
 
 .textContainer{
@@ -23,13 +21,9 @@
     flex-direction: column;
     justify-content: center;
     line-height: 1.5em;
-    /* font-size: 2em; */
-    /* height: 40em; */
     padding-left: 7em;
     font-weight: 300;
     letter-spacing: 0.04em;
-    /* margin-top: 5rem; */
-    /* margin-right: 15rem; */
 }
 
 .introText{
@@ -72,7 +66,6 @@
 .picContainer{
     z-index: 1;
     display: flex;
-    /* margin-top: 3.5em; */
     margin-left: 5em;
     align-items: center;
 }
