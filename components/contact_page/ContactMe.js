@@ -10,7 +10,6 @@ const ContactMe = () => {
   const [message, setMessage] = useState('')
 
   const submitted = (e) => {
-    e.preventDefault();
     let data = { email, subject, message }
     console.log("submitted")
 
