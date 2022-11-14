@@ -284,6 +284,16 @@
     .gitHubIconHover:hover{
         fill: #0075FF;
     } 
+
+    .gitHubSvg{
+        width: 20px;
+        height: 20px;
+    }
+
+    .linkedInIconSvg{
+        width: 16px;
+        height: 16px;
+    }
 }
 
 @media (max-width: 1025px){
@@ -338,6 +348,7 @@
 
     .emailLink{
         margin-bottom: 20px;
+        font-size: 1.75em;
         /* text-decoration: underline; */
         /* margin-right: 1.5em; */
         /* padding: 10px; */
@@ -443,7 +454,7 @@
         align-items: center;
         /* line-height: 1.25em; */
         /* font-size: 1.65em; */
-        margin-top: 5em;
+        margin-top: 10em;
         height: 50em;
         padding-left: 0em;
         /* font-weight: 300; */
@@ -503,9 +514,11 @@
     /* } */
 
     .words{
+        display: flex;
+        flex-wrap: wrap;
         z-index: 1;
         width: fit-content;
-        /* font-size: 2rem; */
+        font-size: 1.75rem;
     }
 
     .myName{
@@ -566,9 +579,15 @@
 
     .linkTag{
         display: flex;
+    }*/
+
+    .gitHubSvg{
+        width: 30px;
+        height: 30px;
     }
 
-    .gitHubIconHover:hover{
-        fill: #0075FF;
-    }*/
+    .linkedInIconSvg{
+        width: 28px;
+        height: 28px;
+    }
 }
