@@ -335,4 +335,11 @@
         width: 40em;
         /* margin-top: 5rem; */
     }
+
+    .picContainer{
+        /* z-index: 1; */
+        /* display: flex; */
+        margin-top: 5em;
+        /* align-items: center; */
+    }
 }
