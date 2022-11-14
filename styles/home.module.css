@@ -5,7 +5,7 @@
     phone:480px;
 */
 /* @media (min-width: 1501px){ */
-@media (1501px <= width){
+@media (min-width: 1501px){
     .container1{
         display: flex;
         flex-direction: column;
