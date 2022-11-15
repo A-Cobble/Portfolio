@@ -216,12 +216,12 @@
         display: flex;
         /* z-index: 1; */
         flex-direction: column;
-        height: 50em;
+        height: 75em;
         justify-content: center;
         align-items: center;
         width: 100vh;
         margin-left: 1em;
-        margin-top: 5em;
+        /* margin-top: 5em; */
     }
 
     .contactText{
