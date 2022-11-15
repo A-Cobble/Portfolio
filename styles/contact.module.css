@@ -39,21 +39,6 @@
         margin-bottom: 2em;
     }
 
-    .emailBtn{
-        display: flex;
-        z-index: 1;
-        border: 2px solid transparent;
-        background-color: black;
-        border-radius: 5px;
-        padding: 10px;
-        color: #0075FF;
-    }
-
-    .emailBtn:hover{
-        color: rgb(255, 0, 150);
-        border: 2px solid #0075FF;
-    }
-
     .formContainer{
         display: flex;
     }
@@ -61,6 +46,7 @@
     .contactForm{
         display: flex;
         flex-direction: column;
+        z-index: 1;
     }
 
     .inputEmail{
@@ -140,21 +126,6 @@
         margin-bottom: 2em;
     }
 
-    .emailBtn{
-        display: flex;
-        z-index: 1;
-        border: 2px solid transparent;
-        background-color: black;
-        border-radius: 5px;
-        padding: 10px;
-        color: #0075FF;
-    }
-
-    .emailBtn:hover{
-        color: rgb(255, 0, 150);
-        border: 2px solid #0075FF;
-    }
-
     .formContainer{
         display: flex;
     }
@@ -162,6 +133,7 @@
     .contactForm{
         display: flex;
         flex-direction: column;
+        z-index: 1;
     }
 
     .inputEmail{
@@ -207,10 +179,10 @@
 }
 
 @media (max-width: 768px){
-    /* .contatiner{
+    .container{
         display: flex;
         z-index: 1;
-    } */
+    }
 
     .container1{
         display: flex;
@@ -245,21 +217,6 @@
         margin-bottom: 2em;
     }
 
-    /* .emailBtn{
-        display: flex;
-        z-index: 1;
-        border: 2px solid transparent;
-        background-color: black;
-        border-radius: 5px;
-        padding: 10px;
-        color: #0075FF;
-    } */
-
-    /* .emailBtn:hover{
-        color: rgb(255, 0, 150);
-        border: 2px solid #0075FF;
-    } */
-
     .formContainer{
         display: flex;
     }
@@ -267,6 +224,7 @@
     .contactForm{
         display: flex;
         flex-direction: column;
+        z-index: 1;
     }
 
     .inputEmail{
