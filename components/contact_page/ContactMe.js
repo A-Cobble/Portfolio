@@ -31,7 +31,7 @@ const ContactMe = () => {
           Contact Me
         </div>
         <div className={styles.text}>
-          {`Thank you for visiting my porfolio website. If you have any questions, or if think I would be a good fit for your team please reach out. I will get back to you as soon as possible.`}
+          {`Thank you for visiting my porfolio website. If you have any questions, or if you think I would be a good fit for your team please reach out. I will get back to you as soon as possible.`}
         </div>
         <div className={styles.formContainer}>
           <form className={styles.contactForm} onSubmit={(e) => submitted(e)}>

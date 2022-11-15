@@ -4,7 +4,7 @@
     tablet:768px;
     phone:480px;
 */
-@media (min-width: 1500px){
+@media (min-width: 1501px){
     .contatiner{
         display: flex;
         z-index: 1;
@@ -207,19 +207,21 @@
 }
 
 @media (max-width: 768px){
-    .contatiner{
+    /* .contatiner{
         display: flex;
         z-index: 1;
-    }
+    } */
 
     .container1{
         display: flex;
         z-index: 1;
         flex-direction: column;
-        height: 50em;
+        height: 35em;
         justify-content: center;
         align-items: center;
-        width: 50em;
+        width: fit-content;
+        margin-left: 0;
+        margin: 11em;
     }
 
     .contactText{
@@ -227,14 +229,14 @@
         z-index: 1;
         margin: 20px;
         font-weight: 600;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .text{
         display: flex;
         z-index: 1;
         width: 25em;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: 300;
         flex-direction: column;
         align-items: center;
@@ -242,7 +244,7 @@
         margin-bottom: 2em;
     }
 
-    .emailBtn{
+    /* .emailBtn{
         display: flex;
         z-index: 1;
         border: 2px solid transparent;
@@ -250,12 +252,12 @@
         border-radius: 5px;
         padding: 10px;
         color: #0075FF;
-    }
+    } */
 
-    .emailBtn:hover{
+    /* .emailBtn:hover{
         color: rgb(255, 0, 150);
         border: 2px solid #0075FF;
-    }
+    } */
 
     .formContainer{
         display: flex;
@@ -267,10 +269,10 @@
     }
 
     .inputEmail{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-bottom: 20px;
         padding: 10px;
-        width: 25rem;
+        width: 20rem;
         background-color: #0075ff5e;
         color: white;
     }
@@ -279,13 +281,13 @@
         font-size: 1.2rem;
         margin-bottom: 20px;
         padding: 10px;
-        width: 25rem;
+        width: 20rem;
         background-color: #0075ff5e;
         color: white;
     }
 
     .textareaMessage{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-bottom: 20px;
         height: 7.5em;
         padding: 10px;
@@ -299,12 +301,12 @@
         border: 2px solid #0077ff;
         border-radius: 5px;
         padding: 10px;
-        font-size: 1.4rem;
-        width: 25rem;
+        font-size: 1.2rem;
+        width: 20rem;
         margin-bottom: 2em;
     }
 
-    .formBtn:hover{
+    /* .formBtn:hover{
         color: rgb(255, 0, 150);
-    }
+    } */
 }
