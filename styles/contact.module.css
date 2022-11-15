@@ -222,8 +222,8 @@
         display: flex;
         /* z-index: 1; */
         flex-direction: column;
-        height: 50em;
-        margin: auto;
+        height: 65em;
+        margin: -10em;
         /* justify-content: center; */
         align-items: center;
     }
