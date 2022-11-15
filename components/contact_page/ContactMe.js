@@ -25,8 +25,8 @@ const ContactMe = () => {
   }
 
   return (
-    <div className={styles.container1}>
-      <div className={styles.text}>
+    <div className={styles.container}>
+      <div className={styles.container1}>
         <div className={styles.contactText}>
           Contact Me
         </div>
