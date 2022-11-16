@@ -18,8 +18,8 @@
         justify-content: center;
         line-height: 1.5em;
         font-size: 2em;
-        height: 25em;
-        padding-left: 7em;
+        height: 95vh;
+        padding-left: 13vw;
         font-weight: 300;
         letter-spacing: 0.04em;
     }
@@ -93,18 +93,17 @@
         display: flex;
         font-size: 1.5em;
         align-items: center;
-        margin-top: .75em;
+        margin-top: 3.5vh;
     }
 
     .projectBtn{
         background-color: black;
         color: #0075FF;
         font-size: 1.2rem;
-        margin-top: 0.65rem;
-        margin-right: 0.5rem;
+        margin-top: 1.2vh;
+        margin-right: 1vh;
         letter-spacing: 0.05em;
         z-index: 1;
-        border: 0;
         border: 2px solid transparent;
         border-radius: 5px;
         cursor: pointer;
@@ -120,11 +119,10 @@
         background-color:black;
         color: #0075FF;
         font-size: 1.2rem;
-        margin-top: 0.65rem;
-        margin-left: 0.5rem;
+        margin-top: 1.2vh;
+        margin-left: 1vh;
         letter-spacing: 0.05em;
         z-index: 1;
-        border: 0;
         border: 2px solid transparent;
         border-radius: 5px;
         cursor: pointer;
@@ -168,9 +166,8 @@
         justify-content: center;
         line-height: 1.5em;
         font-size: 2em;
-        margin-top: -2em;
-        height: 25em;
-        padding-left: 2em;
+        height: 95vh;
+        padding-left: 13vw;
         font-weight: 300;
         letter-spacing: 0.04em;
     }
@@ -223,7 +220,7 @@
         border-left: 1px solid grey;
         padding: 10px;
         margin-right: 0.8em;
-        height: 10em;
+        height: 6em;
     }
 
     .words{
@@ -244,18 +241,17 @@
         display: flex;
         font-size: 1.5em;
         align-items: center;
-        margin-top: .75em;
+        margin-top: 3.5vh;
     }
 
     .projectBtn{
         background-color: black;
         color: #0075FF;
         font-size: 1.2rem;
-        margin-top: 0.65rem;
-        margin-right: 0.5rem;
+        margin-top: 1.2vh;
+        margin-right: 1vh;
         letter-spacing: 0.05em;
         z-index: 1;
-        border: 0;
         border: 2px solid transparent;
         border-radius: 5px;
         cursor: pointer;
@@ -271,11 +267,10 @@
         background-color:black;
         color: #0075FF;
         font-size: 1.2rem;
-        margin-top: 0.65rem;
-        margin-left: 0.5rem;
+        margin-top: 1.2vh;
+        margin-left: 1vh;
         letter-spacing: 0.05em;
         z-index: 1;
-        border: 0;
         border: 2px solid transparent;
         border-radius: 5px;
         cursor: pointer;
@@ -306,297 +301,10 @@
     }
 }
 
-@media (max-width: 1025px){
-    .container1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+/* @media (max-width: 1025px){
+    
+} */
 
-    .container2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        line-height: 1.25em;
-        font-size: 1.65em;
-        margin-top: 0em;
-        height: 25em;
-        padding-left: 2em;
-        font-weight: 300;
-        letter-spacing: 0.04em;
-    }
-
-    .iconContainer{
-        width: 100%;
-        display: flex;
-        position: fixed;
-        justify-content: center;
-        /* bottom: 0; */
-        /* z-index: 1; */
-    }
-
-    .iconContainer1{
-        /* display: flex; */
-        margin-left: 5em;
-        flex-direction: row;
-        /* align-items: center; */
-        /* position: relative; */
-        /* z-index: 1; */
-    }
-
-    .linkedInIcon{
-        /* padding-bottom: 15px; */
-        padding-right: 0px;
-        /* margin-right: 1.5em; */
-    }
-
-    .gitHubIcon{
-        /* padding-bottom: 10px; */
-        padding-right: 0px;
-        margin-right: 1em;
-    }
-
-    .emailLink{
-        margin-bottom: 20px;
-        font-size: 1.75em;
-        /* text-decoration: underline; */
-        /* margin-right: 1.5em; */
-        /* padding: 10px; */
-        writing-mode:horizontal-tb;
-        /* color: grey; */
-        /* user-select: none; */
-    }
-
-    /* .emailLink:hover{
-        color: #0075FF;
-    } */
-
-    .line{
-        display: none;
-        /* border-left: 1px solid grey;
-        padding: 10px;
-        margin-right: 0.8em;
-        height: 10em; */
-    }
-
-    /* .words{
-        z-index: 1;
-        width: fit-content;
-    } */
-
-    /* .myName{
-        color: #0075FF;
-        font-size: 2.5em;
-        line-height: 1.5em;
-        font-weight: 700;
-        width: fit-content;
-        z-index: 1;
-    } */
-
-    /* .btnContainer{
-        display: flex;
-        font-size: 1.5em;
-        align-items: center;
-        margin-top: .75em;
-    } */
-
-    .projectBtn{
-        /* background-color: black; */
-        color: rgb(255, 0, 150);
-        /* font-size: 1.2rem;
-        margin-top: 0.65rem;
-        margin-right: 0.5rem;
-        letter-spacing: 0.05em;
-        z-index: 1;
-        border: 0; */
-        border: 2px solid #0075FF;
-        /* border-radius: 5px;
-        cursor: pointer; */
-    }
-
-    /* .projectBtn:hover{
-        background-color: black;
-        border: 2px solid #0075FF;
-        color: rgb(255, 0, 150);
-    } */
-
-    .resumeBtn{
-        /* background-color:black; */
-        color: rgb(255, 0, 150);
-        /* font-size: 1.2rem;
-        margin-top: 0.65rem;
-        margin-left: 0.5rem;
-        letter-spacing: 0.05em;
-        z-index: 1;
-        border: 0; */
-        border: 2px solid #0075FF;
-        /* border-radius: 5px;
-        cursor: pointer; */
-    }
-
-    /* .resumeBtn:hover{
-        background-color: black;
-        border: 2px solid #0075FF;
-        color: rgb(255, 0, 150);
-    }
-
-    .linkTag{
-        display: flex;
-    }
-
-    .gitHubIconHover:hover{
-        fill: #0075FF;
-    }  */
-}
-
-@media (max-width: 768px){
-    .container1{
-        width: 100vh;
-        display: flex;
-        flex-direction: row;
-        /* justify-content: center; */
-    }
-
-    .container2{
-        /* display: flex; */
-        /* flex-direction: column; */
-        justify-content: flex-start;
-        align-items: center;
-        /* line-height: 1.25em; */
-        /* font-size: 1.65em; */
-        margin-top: 7em;
-        height: 50em;
-        /* font-weight: 300; */
-        /* letter-spacing: 0.04em; */
-    }
-
-    /* .iconContainer{ */
-        /* width: 100%;
-        display: flex;
-        position: fixed; */
-        /* justify-content: center; */
-        /* bottom: 0; */
-        /* z-index: 1; */
-    /* } */
-
-    .iconContainer1{
-        /* display: flex; */
-        margin-left: 5em;
-        flex-direction: row;
-        /* align-items: center; */
-        /* position: relative; */
-        /* z-index: 1; */
-    }
-
-    .linkedInIcon{
-        /* padding-bottom: 15px; */
-        padding-right: 0px;
-        /* margin-right: 1.5em; */
-    }
-
-    .gitHubIcon{
-        /* padding-bottom: 10px; */
-        padding-right: 0px;
-        margin-right: 1em;
-    }
-
-    .emailLink{
-        margin-bottom: 20px;
-        /* text-decoration: underline; */
-        /* margin-right: 1.5em; */
-        /* padding: 10px; */
-        writing-mode:horizontal-tb;
-        /* color: grey; */
-        /* user-select: none; */
-    }
-
-    /* .emailLink:hover{
-        color: #0075FF;
-    } */
-
-    /* .line{ */
-        /* display: none; */
-        /* border-left: 1px solid grey;
-        padding: 10px;
-        margin-right: 0.8em;
-        height: 10em; */
-    /* } */
-
-    .words{
-        display: flex;
-        flex-wrap: wrap;
-        z-index: 1;
-        width: fit-content;
-        font-size: 1.75rem;
-    }
-
-    .myName{
-        color: #0075FF;
-        font-size: 3.3em;
-        line-height: 1.5em;
-        font-weight: 700;
-        width: fit-content;
-        z-index: 1;
-    }
-
-    .btnContainer{
-        display: flex;
-        justify-content: center;
-        font-size: 1.5em;
-        margin-top: .75em;
-    }
-
-    .projectBtn{
-        /* background-color: black; */
-        /* color: rgb(255, 0, 150); */
-         font-size: 2.2rem;
-        /*margin-top: 0.65rem;
-        margin-right: 0.5rem;
-        letter-spacing: 0.05em;
-        z-index: 1;
-        border: 0; */
-        /* border: 2px solid #0075FF; */
-        /* border-radius: 5px;
-        cursor: pointer; */
-    }
-
-    /* .projectBtn:hover{
-        background-color: black;
-        border: 2px solid #0075FF;
-        color: rgb(255, 0, 150);
-    } */
-
-    .resumeBtn{
-        /* background-color:black; */
-        /* color: rgb(255, 0, 150); */
-         font-size: 2.2rem;
-        /*margin-top: 0.65rem;
-        margin-left: 0.5rem;
-        letter-spacing: 0.05em;
-        z-index: 1;
-        border: 0; */
-        /* border: 2px solid #0075FF; */
-        /* border-radius: 5px;
-        cursor: pointer; */
-    }
-
-    /* .resumeBtn:hover{
-        background-color: black;
-        border: 2px solid #0075FF;
-        color: rgb(255, 0, 150);
-    }
-
-    .linkTag{
-        display: flex;
-    }*/
-
-    .gitHubSvg{
-        width: 30px;
-        height: 30px;
-    }
-
-    .linkedInIconSvg{
-        width: 28px;
-        height: 28px;
-    }
-}
+/* @media (max-width: 768px){
+    
+} */

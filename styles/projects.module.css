@@ -99,6 +99,10 @@
 .imageLinks{
     border: 1px solid #0075FF;
 }
+.imageLinks1{
+    border: 1px solid #0075FF;
+    display: none;
+}
 
 .projectText{
     display: flex;

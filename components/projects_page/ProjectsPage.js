@@ -17,6 +17,7 @@ const ProjectsPage = () => {
           <div className={styles.image1}>
             <a href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">
               <Image className={styles.imageLinks} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
+              <Image className={styles.imageLinks1} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
             </a>
           </div>
           <div className={styles.projectText}>
@@ -66,6 +67,7 @@ const ProjectsPage = () => {
           <div className={styles.image2}>
             <a href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">
               <Image className={styles.imageLinks} src={media[1]} width={300} height={150} alt="Steam Clone project" />
+              <Image className={styles.imageLinks1} src={media[1]} width={300} height={150} alt="Steam Clone project" />
             </a>
           </div>
         </div>
@@ -73,6 +75,7 @@ const ProjectsPage = () => {
           <div className={styles.image3}>
             <Link href="/asteroids">
               <Image className={styles.imageLinks} src={media[2]} width={300} height={150} alt="Asteroids Game project" />
+              <Image className={styles.imageLinks1} src={media[2]} width={300} height={150} alt="Asteroids Game project" />
             </Link>
           </div>
           <div className={styles.projectText}>
@@ -117,6 +120,7 @@ const ProjectsPage = () => {
           <div className={styles.image4}>
             <a href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">
               <Image className={styles.imageLinks} src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
+              <Image className={styles.imageLinks1} src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
             </a>
           </div>
         </div>
