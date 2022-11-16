@@ -18,14 +18,13 @@
         justify-content: center;
         line-height: 1.5em;
         font-size: 2em;
-        height: 95vh;
+        height: 90vh;
         padding-left: 13vw;
         font-weight: 300;
         letter-spacing: 0.04em;
     }
 
     .iconContainer{
-        left: auto;
         right: 20px;
         width: 40px;
         position: fixed;
@@ -44,21 +43,19 @@
 
     .linkedInIcon{
         padding-bottom: 15px;
-        padding-right: 5px;
-        margin-right: 1.5em;
+        margin-right: 2vw;
     }
 
     .gitHubIcon{
-        padding-bottom: 10px;
-        padding-right: 5px;
-        margin-right: 1.5em;
+        padding-bottom: 15px;
+        margin-right: 2vw;
     }
 
     .emailLink{
         margin-bottom: 20px;
         text-decoration: underline;
-        margin-right: 1.5em;
-        padding: 10px;
+        margin-right: 1.5vw;
+        /* padding: 10px; */
         writing-mode: vertical-rl;
         color: grey;
         user-select: none;
@@ -71,8 +68,8 @@
     .line{
         border-left: 1px solid grey;
         padding: 10px;
-        margin-right: 0.8em;
-        height: 6em;
+        margin-right: 0.6vw;
+        height: 12vh;
     }
 
     .words{
@@ -166,14 +163,13 @@
         justify-content: center;
         line-height: 1.5em;
         font-size: 2em;
-        height: 95vh;
+        height: 90vh;
         padding-left: 6.5vw;
         font-weight: 300;
         letter-spacing: 0.04em;
     }
 
     .iconContainer{
-        left: auto;
         right: 20px;
         width: 40px;
         position: fixed;
@@ -192,21 +188,19 @@
 
     .linkedInIcon{
         padding-bottom: 15px;
-        padding-right: 5px;
-        margin-right: 1.5em;
+        margin-right: 2vw;
     }
 
     .gitHubIcon{
-        padding-bottom: 10px;
-        padding-right: 5px;
-        margin-right: 1.5em;
+        padding-bottom: 15px;
+        margin-right: 2vw;
     }
 
     .emailLink{
         margin-bottom: 20px;
         text-decoration: underline;
-        margin-right: 1.5em;
-        padding: 10px;
+        margin-right: 1.5vw;
+        /* padding: 10px; */
         writing-mode: vertical-rl;
         color: grey;
         user-select: none;
@@ -219,8 +213,8 @@
     .line{
         border-left: 1px solid grey;
         padding: 10px;
-        margin-right: 0.8em;
-        height: 6em;
+        margin-right: 0.6vw;
+        height: 12vh;
     }
 
     .words{
@@ -302,62 +296,63 @@
 }
 
 @media (max-width: 1025px){
-    .container1{
+    /* .container1{
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+    } */
 
     .container2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
         line-height: 1.25em;
         font-size: 1.65em;
-        height: 95vh;
-        padding-left: 6.5vw;
-        font-weight: 300;
-        letter-spacing: 0.04em;
+        /* height: 90vh; */
+        /* padding-left: 6.5vw; */
+        /* font-weight: 300; */
+        /* letter-spacing: 0.04em; */
     }
 
     .iconContainer{
-        left: auto;
-        right: 20px;
-        width: 40px;
-        position: fixed;
-        bottom: 0;
-        z-index: 1;
-        color: white;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        right: 0;
+        width: 100vw;
+        /* position: fixed; */
+        /* bottom: 0; */
+        /* z-index: 1; */
+        /* color: white; */
     }
 
     .iconContainer1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        z-index: 1;
+        /* display: flex; */
+        flex-direction: row;
+        /* align-items: center; */
+        /* position: relative; */
+        /* z-index: 1; */
     }
 
     .linkedInIcon{
         padding-bottom: 15px;
-        padding-right: 5px;
-        margin-right: 1.5em;
+        margin-right: 2vw;
     }
 
     .gitHubIcon{
-        padding-bottom: 10px;
-        padding-right: 5px;
-        margin-right: 1.5em;
+        padding-bottom: 15px;
+        margin-right: 2vw;
     }
 
     .emailLink{
         margin-bottom: 20px;
-        text-decoration: underline;
-        margin-right: 1.5em;
-        padding: 10px;
+        /* text-decoration: underline; */
+        margin-right: 0vw;
+        /* padding: 10px; */
         writing-mode: horizontal-tb;
-        color: grey;
-        user-select: none;
+        font-size: 1.5em;
+        /* color: grey; */
+        /* user-select: none; */
     }
 
     /* .emailLink:hover{
@@ -367,62 +362,61 @@
     .line{
         display: none;
         /* border-left: 1px solid grey;
-        padding: 10px;
-        margin-right: 0.8em;
-        height: 6em; */
+        padding: 10px6vw    margin-right: 0.8em;
+        height: 12vh; */
     }
 
-    .words{
+    /* .words{
         z-index: 1;
         width: fit-content;
-    }
+    } */
 
-    .myName{
+    /* .myName{
         color: #0075FF;
         font-size: 2.5em;
         line-height: 1.5em;
         font-weight: 700;
         width: fit-content;
         z-index: 1;
-    }
+    } */
 
-    .btnContainer{
+    /* .btnContainer{
         display: flex;
         font-size: 1.5em;
         align-items: center;
         margin-top: 3.5vh;
-    }
+    } */
 
     .projectBtn{
-        background-color: black;
+        /* background-color: black; */
         color: rgb(255, 0, 150);
-        font-size: 1.2rem;
-        margin-top: 1.2vh;
-        margin-right: 1vh;
-        letter-spacing: 0.05em;
-        z-index: 1;
+        /* font-size: 1.2rem; */
+        /* margin-top: 1.2vh; */
+        /* margin-right: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
         border: 2px solid #0075FF;
-        border-radius: 5px;
-        cursor: pointer;
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
     }
 
-    .projectBtn:hover{
+    /* .projectBtn:hover{
         background-color: black;
         border: 2px solid #0075FF;
         color: rgb(255, 0, 150);
-    }
+    } */
 
     .resumeBtn{
-        background-color:black;
+        /* background-color:black; */
         color: rgb(255, 0, 150);
-        font-size: 1.2rem;
-        margin-top: 1.2vh;
-        margin-left: 1vh;
-        letter-spacing: 0.05em;
-        z-index: 1;
+        /* font-size: 1.2rem; */
+        /* margin-top: 1.2vh; */
+        /* margin-left: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
         border: 2px solid #0075FF;
-        border-radius: 5px;
-        cursor: pointer;
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
     }
 
     /* .resumeBtn:hover{
@@ -431,25 +425,173 @@
         color: rgb(255, 0, 150);
     } */
 
-    .linkTag{
+    /* .linkTag{
         display: flex;
-    }
+    } */
 
-    .gitHubIconHover:hover{
+    /* .gitHubIconHover:hover{
         fill: #0075FF;
-    } 
+    }  */
 
     .gitHubSvg{
-        width: 20px;
-        height: 20px;
+        width: 28px;
+        height: 28px;
     }
 
     .linkedInIconSvg{
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
     }
 }
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
+    /* .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+
+    .container2{
+        /* display: flex; */
+        /* flex-direction: column; */
+        align-items: center;
+        /* justify-content: center; */
+        line-height: 1.25em;
+        font-size: 1.65em;
+        height: 90vh;
+        padding-left: 0vw;
+        font-weight: 300;
+        /* margin-top: -10vh; */
+        letter-spacing: 0.04em;
+    }
+
+    .iconContainer{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        right: 0;
+        width: 100vw;
+        /* position: fixed; */
+        /* bottom: 0; */
+        /* z-index: 1; */
+        /* color: white; */
+    }
+
+    .iconContainer1{
+        /* display: flex; */
+        flex-direction: row;
+        /* align-items: center; */
+        /* position: relative; */
+        /* z-index: 1; */
+    }
+
+    .linkedInIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .gitHubIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .emailLink{
+        margin-bottom: 20px;
+        /* text-decoration: underline; */
+        margin-right: 0vw;
+        /* padding: 10px; */
+        writing-mode: horizontal-tb;
+        font-size: 1.5em;
+        /* color: grey; */
+        /* user-select: none; */
+    }
+
+    /* .emailLink:hover{
+        color: #0075FF;
+    } */
+
+    .line{
+        display: none;
+        /* border-left: 1px solid grey;
+        padding: 10px6vw    margin-right: 0.8em;
+        height: 12vh; */
+    }
+
+    /* .words{
+        z-index: 1;
+        width: fit-content;
+    } */
+
+    /* .myName{
+        color: #0075FF;
+        font-size: 2.5em;
+        line-height: 1.5em;
+        font-weight: 700;
+        width: fit-content;
+        z-index: 1;
+    } */
+
+    /* .btnContainer{
+        display: flex;
+        font-size: 1.5em;
+        align-items: center;
+        margin-top: 3.5vh;
+    } */
+
+    .projectBtn{
+        /* background-color: black; */
+        color: rgb(255, 0, 150);
+        /* font-size: 1.2rem; */
+        /* margin-top: 1.2vh; */
+        /* margin-right: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
+        border: 2px solid #0075FF;
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
+    }
+
+    /* .projectBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    } */
+
+    .resumeBtn{
+        /* background-color:black; */
+        color: rgb(255, 0, 150);
+        /* font-size: 1.2rem; */
+        /* margin-top: 1.2vh; */
+        /* margin-left: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
+        border: 2px solid #0075FF;
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
+    }
+
+    /* .resumeBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    } */
+
+    /* .linkTag{
+        display: flex;
+    } */
+
+    /* .gitHubIconHover:hover{
+        fill: #0075FF;
+    }  */
+
+    .gitHubSvg{
+        width: 28px;
+        height: 28px;
+    }
+
+    .linkedInIconSvg{
+        width: 24px;
+        height: 24px;
+    }
     
-} */
+}
