@@ -355,20 +355,21 @@
         text-decoration: underline;
         margin-right: 1.5em;
         padding: 10px;
-        writing-mode: vertical-rl;
+        writing-mode: horizontal-tb;
         color: grey;
         user-select: none;
     }
 
-    .emailLink:hover{
+    /* .emailLink:hover{
         color: #0075FF;
-    }
+    } */
 
     .line{
-        border-left: 1px solid grey;
+        display: none;
+        /* border-left: 1px solid grey;
         padding: 10px;
         margin-right: 0.8em;
-        height: 6em;
+        height: 6em; */
     }
 
     .words{
@@ -394,13 +395,13 @@
 
     .projectBtn{
         background-color: black;
-        color: #0075FF;
+        color: rgb(255, 0, 150);
         font-size: 1.2rem;
         margin-top: 1.2vh;
         margin-right: 1vh;
         letter-spacing: 0.05em;
         z-index: 1;
-        border: 2px solid transparent;
+        border: 2px solid #0075FF;
         border-radius: 5px;
         cursor: pointer;
     }
@@ -413,22 +414,22 @@
 
     .resumeBtn{
         background-color:black;
-        color: #0075FF;
+        color: rgb(255, 0, 150);
         font-size: 1.2rem;
         margin-top: 1.2vh;
         margin-left: 1vh;
         letter-spacing: 0.05em;
         z-index: 1;
-        border: 2px solid transparent;
+        border: 2px solid #0075FF;
         border-radius: 5px;
         cursor: pointer;
     }
 
-    .resumeBtn:hover{
+    /* .resumeBtn:hover{
         background-color: black;
         border: 2px solid #0075FF;
         color: rgb(255, 0, 150);
-    }
+    } */
 
     .linkTag{
         display: flex;
