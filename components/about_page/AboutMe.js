@@ -37,7 +37,7 @@ const AboutMe = () => {
               {"Deployment - Heroku, Render"}
             </div>
             <div className={styles.skillsText}>
-              {"Developer Toools - Auth0, npm, Bootstrap, Tailwind CSS, Agile Methodology, Visual Studio Code"}
+              {"Developer Tools - Auth0, npm, Bootstrap, Tailwind CSS, Agile Methodology, Visual Studio Code"}
             </div>
           </div>
         </div>

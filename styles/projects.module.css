@@ -18,8 +18,8 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
-    margin-top: 3em;
-    min-width: 60em;
+    margin-top: 6vh;
+    /* min-width: 60em; */
 }
 
 .carouselContainer{
