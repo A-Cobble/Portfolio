@@ -8,10 +8,13 @@
 .container{
     display: flex;
     z-index: 1;
+    justify-content: center;
 }
 
 .container1{
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
 }
 
 .container2{
@@ -19,7 +22,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 6vh;
-    /* min-width: 60em; */
+    /* min-width: 60vw; */
 }
 
 .carouselContainer{
@@ -28,14 +31,16 @@
 }
 
 .projectsContainer{
-    margin-top: 5em;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     max-width: 1000px;
+    height: 165vh;
+    justify-content: space-evenly;
 }
 
 .firstProject{
-    height: 285px;
+    height: 32vh;
     z-index: 1;
     display: flex;
     padding: 20px;
@@ -44,8 +49,8 @@
 }
 
 .secondProject{
-    margin-top: 2.5em;
-    height: 285px;
+    /* margin-top: 2.5em; */
+    height: 32vh;
     z-index: 1;
     display: flex;
     justify-content: space-between;
@@ -55,8 +60,8 @@
 
 }
 .thirdProject{
-    margin-top: 2.5em;
-    height: 285px;
+    /* margin-top: 2.5em; */
+    height: 32vh;
     z-index: 1;
     display: flex;
     padding: 20px;
@@ -64,9 +69,9 @@
     border-radius: 5px;
 }
 .fourthProject{
-    margin-top: 2.5em;
+    /* margin-top: 2.5em; */
     margin-bottom: 5em;
-    height: 285px;
+    height: 32vh;
     z-index: 1;
     display: flex;
     justify-content: space-between;

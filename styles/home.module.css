@@ -4,7 +4,6 @@
     tablet:768px;
     phone:480px;
 */
-/* @media (min-width: 1501px){ */
 @media (min-width: 1501px){
     .container1{
         display: flex;
