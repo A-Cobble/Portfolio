@@ -112,6 +112,7 @@
         justify-content: center;
         border: 1px solid transparent;
         border-radius: 5px;
+        padding: 5px;
     }
 
     .homeMenu:hover{
@@ -125,6 +126,7 @@
         justify-content: center;
         border: 1px solid transparent;
         border-radius: 5px;
+        padding: 5px;
     }
 
     .aboutMenu:hover{
@@ -138,6 +140,7 @@
         justify-content: center;
         border: 1px solid transparent;
         border-radius: 5px;
+        padding: 5px;
     }
 
     .projectsMenu:hover{
@@ -151,6 +154,7 @@
         justify-content: center;
         border: 1px solid transparent;
         border-radius: 5px;
+        padding: 5px;
     }
 
     .contactMenu:hover{
