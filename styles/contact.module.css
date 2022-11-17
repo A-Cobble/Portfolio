@@ -14,9 +14,10 @@
         display: flex;
         z-index: 1;
         flex-direction: column;
-        height: 50em;
+        height: 100vh;
         justify-content: center;
         align-items: center;
+        margin-top: -10vh;
     }
 
     .contactText{
@@ -101,9 +102,10 @@
         display: flex;
         z-index: 1;
         flex-direction: column;
-        height: 50em;
+        height: 100vh;
         justify-content: center;
         align-items: center;
+        margin-top: -10vh;
     }
 
     .contactText{
@@ -182,17 +184,18 @@
     .container{
         display: flex;
         z-index: 1;
+        justify-content: center;
     }
 
     .container1{
         display: flex;
         /* z-index: 1; */
-        flex-direction: column;
+        /* flex-direction: column;
         height: 75em;
         justify-content: center;
         align-items: center;
         width: 100vh;
-        margin-left: 0em;
+        margin-left: 0em; */
         /* margin-top: 5em; */
     }
 
