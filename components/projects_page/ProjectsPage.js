@@ -9,132 +9,132 @@ import Link from "next/link"
 const ProjectsPage = () => {
   return (
     <>
-    <div className={styles.container1}>
-      <div className={styles.container2}>
-        <EmblaCarousel />
+      <div className={styles.container1}>
+        <div className={styles.container2}>
+          <EmblaCarousel />
+        </div>
+        <div className={styles.projectsContainer}>
+          <div className={styles.firstProject}>
+            <div className={styles.image1}>
+              <a className={styles.imageLinks} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">
+                <Image className={styles.imageBorder} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
+              </a>
+              <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
+                <Image src={media[0]} width={300} height={150} alt="Instructor Hub project" />
+              </a>
+            </div>
+            <div className={styles.projectText}>
+              <div className={styles.projectName}>
+                Instructor Hub
+              </div>
+              <div className={styles.projectDescription}>
+                <p>
+                  {`Technologies Used: Next.js, React, JavaScript, Axios, Recoil, PostgreSQL, CSS`}
+                  <br />
+                  {`Hosted on: Render`}
+                  <br />
+                  <br />
+                  {`Led a team of 10 as the product manager to develop a full-stack application that integrates with a third-party API, 
+                  to streamline the process of updating and tracking students.`}
+                </p>
+              </div>
+              <div className={styles.btnContainer}>
+                <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/instructor-hub" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <span className={styles.divider}>{" | "}</span>
+                <a className={styles.projectDemo} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">Project Demo</a>
+              </div>
+            </div>
+          </div>
+          <div className={styles.secondProject}>
+            <div className={styles.projectText}>
+              <div className={styles.projectName}>
+                Steam Clone
+              </div>
+              <div className={styles.projectDescription}>
+                <p>
+                  {`Technologies Used: Next.js, React, Axios, Recoil, TailwindCSS, PostgreSQL, Trello`}
+                  <br/>
+                  {`Hosted On: Render`}
+                  <br/>
+                  <br/>
+                  {`Led a team of 5 software developers, as the team lead, to create a full-stack clone of store.steampowered.com's website focusing on front-end
+                    design.`}
+                </p>
+              </div>
+              <div className={styles.btnContainer}>
+                <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Steam-Clone" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <span className={styles.divider}>{" | "}</span>
+                <a className={styles.projectDemo} href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">Project Demo</a>
+              </div>
+            </div>
+            <div className={styles.image2}>
+              <a className={styles.imageLinks} href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">
+                <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
+              </a>
+              <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
+                <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
+              </a>
+            </div>
+          </div>
+          <div className={styles.thirdProject}>
+            <div className={styles.image3}>
+              <Link className={styles.imageLinks} href="/asteroids">
+                <Image src={media[2]} width={300} height={150} alt="Asteroids Game project" />
+              </Link>
+              <a className={styles.imageLinks1}>
+                <Image src={media[2]} width={300} height={150} alt="Asteroids Game project" />
+              </a>
+            </div>
+            <div className={styles.projectText}>
+              <div className={styles.projectName}>
+                Asteroids Game
+              </div>
+              <div className={styles.projectDescription}>
+                <p>
+                  {`Technologies Used: Reactjs, JavaScript, HTML, CSS`}
+                  <br />
+                  <br/>
+                  {`Created a replica of the 1979 Asteroids game by Atari, inc.`}
+                </p>
+              </div>
+              <div className={styles.btnContainer}>
+                <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/react-game/tree/main/react-game" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <span className={styles.divider}>{" | "}</span>
+                <Link className={styles.projectDemo} href="/asteroids">Project Demo</Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.fourthProject}>
+            <div className={styles.projectText}>
+              <div className={styles.projectName}>
+                D&D Character Sheet
+              </div>
+              <div className={styles.projectDescription}>
+                <p>
+                  {`Technologies Used: React, JavaScript, HTML, CSS, Express, SQL`}
+                  <br />
+                  <br />
+                  {`A full-stack application that allows the user create D&D character sheets, update the current one as they play, 
+                  and save it for their next game night.`}
+                </p>
+              </div>
+              <div className={styles.btnContainer}>
+                <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Full-Stack-Project" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <span className={styles.divider}>{" | "}</span>
+                <a className={styles.projectDemo} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">Project Demo</a>
+              </div>
+            </div>
+            <div className={styles.image4}>
+              <a className={styles.imageLinks} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">
+                <Image  src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
+              </a>
+              <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
+                <Image src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className={styles.projectsContainer}>
-        <div className={styles.firstProject}>
-          <div className={styles.image1}>
-            <a className={styles.imageLinks} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">
-              <Image className={styles.imageBorder} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
-            </a>
-            <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
-              <Image src={media[0]} width={300} height={150} alt="Instructor Hub project" />
-            </a>
-          </div>
-          <div className={styles.projectText}>
-            <div className={styles.projectName}>
-              Instructor Hub
-            </div>
-            <div className={styles.projectDescription}>
-              <p>
-                {`Technologies Used: Next.js, React, JavaScript, Axios, Recoil, PostgreSQL, CSS`}
-                <br />
-                {`Hosted on: Render`}
-                <br />
-                <br />
-                {`Led a team of 10 as the product manager to develop a full-stack application that integrates with a third-party API, 
-                to streamline the process of updating and tracking students.`}
-              </p>
-            </div>
-            <div className={styles.btnContainer}>
-              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/instructor-hub" target="_blank" rel="noreferrer">GitHub Repo</a>
-              <span className={styles.divider}>{" | "}</span>
-              <a className={styles.projectDemo} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">Project Demo</a>
-            </div>
-          </div>
-        </div>
-        <div className={styles.secondProject}>
-          <div className={styles.projectText}>
-            <div className={styles.projectName}>
-              Steam Clone
-            </div>
-            <div className={styles.projectDescription}>
-              <p>
-                {`Technologies Used: Next.js, React, Axios, Recoil, TailwindCSS, PostgreSQL, Trello`}
-                <br/>
-                {`Hosted On: Render`}
-                <br/>
-                <br/>
-                {`Led a team of 5 software developers, as the team lead, to create a full-stack clone of store.steampowered.com's website focusing on front-end
-                  design.`}
-              </p>
-            </div>
-            <div className={styles.btnContainer}>
-              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Steam-Clone" target="_blank" rel="noreferrer">GitHub Repo</a>
-              <span className={styles.divider}>{" | "}</span>
-              <a className={styles.projectDemo} href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">Project Demo</a>
-            </div>
-          </div>
-          <div className={styles.image2}>
-            <a className={styles.imageLinks} href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">
-              <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
-            </a>
-            <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
-              <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
-            </a>
-          </div>
-        </div>
-        <div className={styles.thirdProject}>
-          <div className={styles.image3}>
-            <Link className={styles.imageLinks} href="/asteroids">
-              <Image src={media[2]} width={300} height={150} alt="Asteroids Game project" />
-            </Link>
-            <a className={styles.imageLinks1}>
-              <Image src={media[2]} width={300} height={150} alt="Asteroids Game project" />
-            </a>
-          </div>
-          <div className={styles.projectText}>
-            <div className={styles.projectName}>
-              Asteroids Game
-            </div>
-            <div className={styles.projectDescription}>
-              <p>
-                {`Technologies Used: Reactjs, JavaScript, HTML, CSS`}
-                <br />
-                <br/>
-                {`Created a replica of the 1979 Asteroids game by Atari, inc.`}
-              </p>
-            </div>
-            <div className={styles.btnContainer}>
-              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/react-game/tree/main/react-game" target="_blank" rel="noreferrer">GitHub Repo</a>
-              <span className={styles.divider}>{" | "}</span>
-              <Link className={styles.projectDemo} href="/asteroids">Project Demo</Link>
-            </div>
-          </div>
-        </div>
-        <div className={styles.fourthProject}>
-          <div className={styles.projectText}>
-            <div className={styles.projectName}>
-              D&D Character Sheet
-            </div>
-            <div className={styles.projectDescription}>
-              <p>
-                {`Technologies Used: React, JavaScript, HTML, CSS, Express, SQL`}
-                <br />
-                <br />
-                {`A full-stack application that allows the user create D&D character sheets, update the current one as they play, 
-                and save it for their next game night.`}
-              </p>
-            </div>
-            <div className={styles.btnContainer}>
-              <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Full-Stack-Project" target="_blank" rel="noreferrer">GitHub Repo</a>
-              <span className={styles.divider}>{" | "}</span>
-              <a className={styles.projectDemo} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">Project Demo</a>
-            </div>
-          </div>
-          <div className={styles.image4}>
-            <a className={styles.imageLinks} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">
-              <Image  src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
-            </a>
-            <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
-              <Image src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
       <div className={styles1.iconContainer}>
         <div className={styles1.iconContainer1}>
           <a className={styles1.linkedInIcon} href='https://www.linkedin.com/in/alexandercobble/'>
