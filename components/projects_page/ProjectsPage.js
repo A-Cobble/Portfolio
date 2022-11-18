@@ -16,7 +16,7 @@ const ProjectsPage = () => {
         <div className={styles.firstProject}>
           <div className={styles.image1}>
             <a className={styles.imageLinks} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">
-              <Image src={media[0]} width={300} height={150} alt="Instructor Hub project" />
+              <Image className={styles.imageBorder} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
             </a>
             <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
               <Image src={media[0]} width={300} height={150} alt="Instructor Hub project" />
