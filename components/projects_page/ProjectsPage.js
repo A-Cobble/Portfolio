@@ -15,9 +15,11 @@ const ProjectsPage = () => {
       <div className={styles.projectsContainer}>
         <div className={styles.firstProject}>
           <div className={styles.image1}>
-            <a href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">
-              <Image className={styles.imageLinks} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
-              <Image className={styles.imageLinks1} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
+            <a className={styles.imageLinks} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">
+              <Image src={media[0]} width={300} height={150} alt="Instructor Hub project" />
+            </a>
+            <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
+              <Image src={media[0]} width={300} height={150} alt="Instructor Hub project" />
             </a>
           </div>
           <div className={styles.projectText}>
@@ -65,18 +67,22 @@ const ProjectsPage = () => {
             </div>
           </div>
           <div className={styles.image2}>
-            <a href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">
-              <Image className={styles.imageLinks} src={media[1]} width={300} height={150} alt="Steam Clone project" />
-              <Image className={styles.imageLinks1} src={media[1]} width={300} height={150} alt="Steam Clone project" />
+            <a className={styles.imageLinks} href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">
+              <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
+            </a>
+            <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
+              <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
             </a>
           </div>
         </div>
         <div className={styles.thirdProject}>
           <div className={styles.image3}>
-            <Link href="/asteroids">
-              <Image className={styles.imageLinks} src={media[2]} width={300} height={150} alt="Asteroids Game project" />
-              <Image className={styles.imageLinks1} src={media[2]} width={300} height={150} alt="Asteroids Game project" />
+            <Link className={styles.imageLinks} href="/asteroids">
+              <Image src={media[2]} width={300} height={150} alt="Asteroids Game project" />
             </Link>
+            <a className={styles.imageLinks1}>
+              <Image src={media[2]} width={300} height={150} alt="Asteroids Game project" />
+            </a>
           </div>
           <div className={styles.projectText}>
             <div className={styles.projectName}>
@@ -118,9 +124,11 @@ const ProjectsPage = () => {
             </div>
           </div>
           <div className={styles.image4}>
-            <a href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">
-              <Image className={styles.imageLinks} src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
-              <Image className={styles.imageLinks1} src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
+            <a className={styles.imageLinks} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">
+              <Image  src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
+            </a>
+            <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
+              <Image src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
             </a>
           </div>
         </div>

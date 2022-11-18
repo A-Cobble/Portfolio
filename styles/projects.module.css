@@ -4,183 +4,930 @@
     tablet:768px;
     phone:480px;
 */
+@media (min-width: 1501px){
+    .container{
+        display: flex;
+        z-index: 1;
+    }
 
-.container{
-    display: flex;
-    z-index: 1;
-    justify-content: center;
+    .container1{
+        margin: 0 auto;
+    }
+
+    .container2{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        margin-top: 6em;
+        min-width: 1000px;
+    }
+
+    .carouselContainer{
+        z-index: 1;
+        display: flex;
+    }
+
+    .projectsContainer{
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+    }
+
+    .firstProject{
+        height: 285px;
+        z-index: 1;
+        display: flex;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+
+    .secondProject{
+        margin-top: 2.5em;
+        height: 285px;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+
+    }
+    .thirdProject{
+        margin-top: 2.5em;
+        height: 285px;
+        z-index: 1;
+        display: flex;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+    .fourthProject{
+        margin-top: 2.5em;
+        margin-bottom: 5em;
+        height: 285px;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+
+    .image1{
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+    }
+    .image2{
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .image3{
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+    }
+    .image4{
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    .imageLinks{
+        border: 1px solid #0075FF;
+    }
+    .imageLinks1{
+        border: 1px solid #0075FF;
+        display: none;
+    }
+
+    .projectText{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .projectName{
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .projectDescription{
+        margin-bottom: 1.2rem;
+    }
+
+    .gitHubRepo{
+        color: white;
+        margin-right: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .gitHubRepo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .btnContainer{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .projectDemo{
+        color: white;
+        margin-left: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .projectDemo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .divider{
+        line-height: 1.0em;
+        font-size: 1.5em;
+        user-select: none;
+    }
+
+    .asteroidsContainer{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .gameBoard{
+        width: 700px;
+        height: 500px;
+        border: 2px solid #0075FF;
+        margin-top: 10em;
+    }
+
+    .controls{
+        margin-top: 5em;
+        z-index: 1;
+    }
 }
 
-.container1{
-    /* margin: 0 auto; */
-    display: flex;
-    flex-direction: column;
+@media (max-width: 1500px){
+    .container{
+        display: flex;
+        z-index: 1;
+    }
+
+    .container1{
+        margin: 0 auto;
+    }
+
+    .container2{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        margin-top: 6em;
+        /* min-width: 1000px; */
+    }
+
+    .carouselContainer{
+        z-index: 1;
+        display: flex;
+    }
+
+    .projectsContainer{
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+    }
+
+    .firstProject{
+        height: 285px;
+        z-index: 1;
+        display: flex;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+
+    .secondProject{
+        margin-top: 2.5em;
+        height: 285px;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+
+    }
+    .thirdProject{
+        margin-top: 2.5em;
+        height: 285px;
+        z-index: 1;
+        display: flex;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+    .fourthProject{
+        margin-top: 2.5em;
+        margin-bottom: 5em;
+        height: 285px;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+
+    .image1{
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+    }
+    .image2{
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .image3{
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+    }
+    .image4{
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    .imageLinks{
+        border: 1px solid #0075FF;
+    }
+    .imageLinks1{
+        border: 1px solid #0075FF;
+        display: none;
+    }
+
+    .projectText{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .projectName{
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .projectDescription{
+        margin-bottom: 1.2rem;
+    }
+
+    .gitHubRepo{
+        color: white;
+        margin-right: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .gitHubRepo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .btnContainer{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .projectDemo{
+        color: white;
+        margin-left: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .projectDemo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .divider{
+        line-height: 1.0em;
+        font-size: 1.5em;
+        user-select: none;
+    }
+
+    .asteroidsContainer{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .gameBoard{
+        width: 700px;
+        height: 500px;
+        border: 2px solid #0075FF;
+        margin-top: 10em;
+    }
+
+    .controls{
+        margin-top: 5em;
+        z-index: 1;
+    }
 }
 
-.container2{
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    margin-top: 6vh;
-    /* min-width: 60vw; */
+@media (max-width: 1200px){
+    /* .container{
+        display: flex;
+        z-index: 1;
+    } */
+
+    /* .container1{
+        margin: 0 auto;
+    } */
+
+    .container2{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+        width: 800px;
+        margin-bottom: 10vh;
+    }
+
+    .carouselContainer{
+        z-index: 1;
+        display: flex;
+    }
+
+    .projectsContainer{
+        margin-top: unset;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+    }
+
+    .firstProject{
+        height: 325px;
+        z-index: 1;
+        display: flex;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+
+    .secondProject{
+        margin-top: 2.5em;
+        height: 325px;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+
+    }
+    .thirdProject{
+        margin-top: 2.5em;
+        height: 325px;
+        z-index: 1;
+        display: flex;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+    .fourthProject{
+        margin-top: 2.5em;
+        margin-bottom: 5em;
+        height: 325px;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+    }
+
+    .image1{
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+    }
+    .image2{
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .image3{
+        display: flex;
+        align-items: center;
+        margin-right: 3rem;
+    }
+    .image4{
+        display: flex;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    .imageLinks{
+        border: 1px solid #0075FF;
+    }
+    .imageLinks1{
+        border: 1px solid #0075FF;
+        display: none;
+    }
+
+    .projectText{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .projectName{
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .projectDescription{
+        margin-bottom: 1.2rem;
+    }
+
+    .gitHubRepo{
+        color: white;
+        margin-right: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .gitHubRepo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .btnContainer{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .projectDemo{
+        color: white;
+        margin-left: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .projectDemo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .divider{
+        line-height: 1.0em;
+        font-size: 1.5em;
+        user-select: none;
+    }
+
+    .asteroidsContainer{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .gameBoard{
+        width: 700px;
+        height: 500px;
+        border: 2px solid #0075FF;
+        margin-top: 10em;
+    }
+
+    .controls{
+        margin-top: 5em;
+        z-index: 1;
+    }
 }
 
-.carouselContainer{
-    z-index: 1;
-    display: flex;
+@media (max-width: 1025px){
+    /* .container{
+        display: flex;
+        z-index: 1;
+    } */
+
+    /* .container1{
+        margin: 0 auto;
+    } */
+
+    .container2{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+        width: 700px;
+        margin-bottom: 10vh;
+    }
+
+    .carouselContainer{
+        z-index: 1;
+        display: flex;
+    }
+
+    .projectsContainer{
+        margin-top: unset;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .firstProject{
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .secondProject{
+        margin-top: 2.5em;
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+        align-items: center;
+    }
+    .thirdProject{
+        margin-top: 2.5em;
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .fourthProject{
+        margin-top: 2.5em;
+        margin-bottom: 5em;
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .image1{
+        display: flex;
+        align-items: center;
+        margin-right: unset;
+    }
+    .image2{
+        display: flex;
+        align-items: center;
+        margin-left: unset;
+    }
+    .image3{
+        display: flex;
+        align-items: center;
+        margin-right: unset;
+        margin-bottom: 5em;
+    }
+    .image4{
+        display: flex;
+        align-items: center;
+        margin-left: unset;
+    }
+
+    .imageLinks{
+        border: 1px solid #0075FF;
+    }
+    .imageLinks1{
+        border: 1px solid #0075FF;
+        display: none;
+    }
+
+    .projectText{
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .projectName{
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .projectDescription{
+        margin-bottom: 1.2rem;
+    }
+
+    .gitHubRepo{
+        color: white;
+        margin-right: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* .gitHubRepo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    } */
+
+    .btnContainer{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .projectDemo{
+        display: none;
+        color: white;
+        margin-left: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .projectDemo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .divider{
+        display: none;
+        line-height: 1.0em;
+        font-size: 1.5em;
+        user-select: none;
+    }
+
+    .asteroidsContainer{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .gameBoard{
+        width: 700px;
+        height: 500px;
+        border: 2px solid #0075FF;
+        margin-top: 10em;
+    }
+
+    .controls{
+        margin-top: 5em;
+        z-index: 1;
+    }
 }
 
-.projectsContainer{
-    margin-top: 5vh;
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    height: 165vh;
-    justify-content: space-evenly;
+@media (max-width: 768px){
+   /* .container{
+        display: flex;
+        z-index: 1;
+    } */
+
+    /* .container1{
+        margin: 0 auto;
+    } */
+
+    .container2{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+        width: 700px;
+        margin-bottom: 10vh;
+    }
+
+    .carouselContainer{
+        z-index: 1;
+        display: flex;
+    }
+
+    .projectsContainer{
+        margin-top: unset;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .firstProject{
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .secondProject{
+        margin-top: 2.5em;
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+        align-items: center;
+    }
+    .thirdProject{
+        margin-top: 2.5em;
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .fourthProject{
+        margin-top: 2.5em;
+        margin-bottom: 5em;
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #0077ff4d;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .image1{
+        display: flex;
+        align-items: center;
+        margin-right: unset;
+    }
+    .image2{
+        display: flex;
+        align-items: center;
+        margin-left: unset;
+    }
+    .image3{
+        display: flex;
+        align-items: center;
+        margin-right: unset;
+        margin-bottom: 5em;
+    }
+    .image4{
+        display: flex;
+        align-items: center;
+        margin-left: unset;
+    }
+
+    .imageLinks{
+        display: none;
+        border: 1px solid #0075FF;
+    }
+
+    .imageLinks1{
+        border: 1px solid #0075FF;
+        display: unset;
+    }
+
+    .projectText{
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .projectName{
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .projectDescription{
+        margin-bottom: 1.2rem;
+    }
+
+    .gitHubRepo{
+        color: white;
+        margin-right: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* .gitHubRepo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    } */
+
+    .btnContainer{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .projectDemo{
+        display: none;
+        color: white;
+        margin-left: 5px;
+        padding: 5px;
+        border: 0;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .projectDemo:hover{
+        background-color: black;
+        border: 1px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .divider{
+        display: none;
+        line-height: 1.0em;
+        font-size: 1.5em;
+        user-select: none;
+    }
+
+    .asteroidsContainer{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .gameBoard{
+        width: 700px;
+        height: 500px;
+        border: 2px solid #0075FF;
+        margin-top: 10em;
+    }
+
+    .controls{
+        margin-top: 5em;
+        z-index: 1;
+    }
 }
 
-.firstProject{
-    height: 32vh;
-    z-index: 1;
-    display: flex;
-    padding: 20px;
-    background-color: #0077ff4d;
-    border-radius: 5px;
-}
-
-.secondProject{
-    /* margin-top: 2.5em; */
-    height: 32vh;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #0077ff4d;
-    border-radius: 5px;
-
-}
-.thirdProject{
-    /* margin-top: 2.5em; */
-    height: 32vh;
-    z-index: 1;
-    display: flex;
-    padding: 20px;
-    background-color: #0077ff4d;
-    border-radius: 5px;
-}
-.fourthProject{
-    /* margin-top: 2.5em; */
-    margin-bottom: 5em;
-    height: 32vh;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #0077ff4d;
-    border-radius: 5px;
-}
-
-.image1{
-    display: flex;
-    align-items: center;
-    margin-right: 3rem;
-}
-.image2{
-    display: flex;
-    align-items: center;
-    margin-left: 3rem;
-}
-.image3{
-    display: flex;
-    align-items: center;
-    margin-right: 3rem;
-}
-.image4{
-    display: flex;
-    align-items: center;
-    margin-left: 3rem;
-}
-
-.imageLinks{
-    border: 1px solid #0075FF;
-}
-.imageLinks1{
-    border: 1px solid #0075FF;
-    display: none;
-}
-
-.projectText{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.projectName{
-    font-size: 1.5rem;
-    margin-bottom: 1.2rem;
-}
-
-.projectDescription{
-    margin-bottom: 1.2rem;
-}
-
-.gitHubRepo{
-    color: white;
-    margin-right: 5px;
-    padding: 5px;
-    border: 0;
-    border: 1px solid white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.gitHubRepo:hover{
-    background-color: black;
-    border: 1px solid #0075FF;
-    color: rgb(255, 0, 150);
-}
-
-.btnContainer{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.projectDemo{
-    color: white;
-    margin-left: 5px;
-    padding: 5px;
-    border: 0;
-    border: 1px solid white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.projectDemo:hover{
-    background-color: black;
-    border: 1px solid #0075FF;
-    color: rgb(255, 0, 150);
-}
-
-.divider{
-    line-height: 1.0em;
-    font-size: 1.5em;
-    user-select: none;
-}
-
-.asteroidsContainer{
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-.gameBoard{
-    width: 700px;
-    height: 500px;
-    border: 2px solid #0075FF;
-    margin-top: 10em;
-}
-
-.controls{
-    margin-top: 5em;
-    z-index: 1;
+@media (max-width: 480px){
+  
 }
