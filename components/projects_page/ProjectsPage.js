@@ -8,6 +8,7 @@ import Link from "next/link"
 
 const ProjectsPage = () => {
   return (
+    <>
     <div className={styles.container1}>
       <div className={styles.container2}>
         <EmblaCarousel />
@@ -133,6 +134,7 @@ const ProjectsPage = () => {
           </div>
         </div>
       </div>
+    </div>
       <div className={styles1.iconContainer}>
         <div className={styles1.iconContainer1}>
           <a className={styles1.linkedInIcon} href='https://www.linkedin.com/in/alexandercobble/'>
@@ -167,7 +169,7 @@ const ProjectsPage = () => {
           <div className={styles1.line}></div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

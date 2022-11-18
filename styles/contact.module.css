@@ -15,10 +15,10 @@
         display: flex;
         z-index: 1;
         flex-direction: column;
-        height: 100vh;
+        height: 728px;
         justify-content: center;
         align-items: center;
-        /* margin-top: -10vh; */
+        /* margin-top: -5vh; */
     }
 
     .contactText{
@@ -105,7 +105,7 @@
         display: flex;
         z-index: 1;
         flex-direction: column;
-        height: 100vh;
+        height: 728px;
         justify-content: center;
         align-items: center;
         /* margin-top: -10vh; */
