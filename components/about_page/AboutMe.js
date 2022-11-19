@@ -28,7 +28,7 @@ const AboutMe = () => {
             </div>
             <br />
             <div className={styles.skillsText}>
-              {"Front End - JavaScript, React, Next.js, HTML5, CSS3, Axios"}
+              {"Front End - JavaScript, Three.js, React, Next.js, Recoil, HTML5, CSS3, Axios"}
             </div>
             <div className={styles.skillsText}>
               {"Back End - C#, Node.js, Espress, PostgreSQL, SQL, MongoDB, Restful API Development"}
