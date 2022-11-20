@@ -1,137 +1,668 @@
-.container1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+/*  
+    desktop:1200px;
+    laptop:1024px;
+    tablet:768px;
+    phone:480px;
+*/
+@media (min-width: 1501px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        font-size: 2em;
+        height: 90vh;
+        padding-left: 13vw;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+    }
+
+    .iconContainer{
+        right: 20px;
+        width: 40px;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        color: white;
+    }
+
+    .iconContainer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .linkedInIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .gitHubIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .emailLink{
+        margin-bottom: 20px;
+        text-decoration: underline;
+        margin-right: 1.5vw;
+        /* padding: 10px; */
+        writing-mode: vertical-rl;
+        color: grey;
+        user-select: none;
+    }
+
+    .emailLink:hover{
+        color: #0075FF;
+    }
+
+    .line{
+        border-left: 1px solid grey;
+        padding: 10px;
+        margin-right: 0.6vw;
+        height: 12vh;
+    }
+
+    .words{
+        z-index: 1;
+        width: fit-content;
+    }
+
+    .myName{
+        color: #0075FF;
+        font-size: 2.5em;
+        line-height: 1.5em;
+        font-weight: 700;
+        width: fit-content;
+        z-index: 1;
+    }
+
+    .btnContainer{
+        display: flex;
+        font-size: 1.5em;
+        align-items: center;
+        margin-top: 3.5vh;
+    }
+
+    .projectBtn{
+        background-color: black;
+        color: #0075FF;
+        font-size: 1.2rem;
+        margin-top: 1.2vh;
+        margin-right: 1vh;
+        letter-spacing: 0.05em;
+        z-index: 1;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .projectBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .resumeBtn{
+        background-color:black;
+        color: #0075FF;
+        font-size: 1.2rem;
+        margin-top: 1.2vh;
+        margin-left: 1vh;
+        letter-spacing: 0.05em;
+        z-index: 1;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .resumeBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .linkTag{
+        display: flex;
+    }
+
+    .gitHubIconHover:hover{
+        fill: #0075FF;
+    } 
+
+    .gitHubSvg{
+        width: 20px;
+        height: 20px;
+    }
+
+    .linkedInIconSvg{
+        width: 16px;
+        height: 16px;
+    }
 }
 
-.container2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 1.5em;
-    font-size: 2em;
-    height: 25em;
-    padding-left: 7em;
-    font-weight: 300;
-    letter-spacing: 0.04em;
+@media (max-width: 1500px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        font-size: 2em;
+        height: 90vh;
+        padding-left: 6.5vw;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+    }
+
+    .iconContainer{
+        right: 20px;
+        width: 40px;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        color: white;
+    }
+
+    .iconContainer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .linkedInIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .gitHubIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .emailLink{
+        margin-bottom: 20px;
+        text-decoration: underline;
+        margin-right: 1.5vw;
+        /* padding: 10px; */
+        writing-mode: vertical-rl;
+        color: grey;
+        user-select: none;
+    }
+
+    .emailLink:hover{
+        color: #0075FF;
+    }
+
+    .line{
+        border-left: 1px solid grey;
+        padding: 10px;
+        margin-right: 0.6vw;
+        height: 12vh;
+    }
+
+    .words{
+        z-index: 1;
+        width: fit-content;
+    }
+
+    .myName{
+        color: #0075FF;
+        font-size: 2.5em;
+        line-height: 1.5em;
+        font-weight: 700;
+        width: fit-content;
+        z-index: 1;
+    }
+
+    .btnContainer{
+        display: flex;
+        font-size: 1.5em;
+        align-items: center;
+        margin-top: 3.5vh;
+    }
+
+    .projectBtn{
+        background-color: black;
+        color: #0075FF;
+        font-size: 1.2rem;
+        margin-top: 1.2vh;
+        margin-right: 1vh;
+        letter-spacing: 0.05em;
+        z-index: 1;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .projectBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .resumeBtn{
+        background-color:black;
+        color: #0075FF;
+        font-size: 1.2rem;
+        margin-top: 1.2vh;
+        margin-left: 1vh;
+        letter-spacing: 0.05em;
+        z-index: 1;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .resumeBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    }
+
+    .linkTag{
+        display: flex;
+    }
+
+    .gitHubIconHover:hover{
+        fill: #0075FF;
+    } 
+
+    .gitHubSvg{
+        width: 20px;
+        height: 20px;
+    }
+
+    .linkedInIconSvg{
+        width: 16px;
+        height: 16px;
+    }
 }
 
-.iconContainer{
-    left: auto;
-    right: 20px;
-    width: 40px;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
-    color: white;
+@media (max-width: 1025px){
+    /* .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+
+    .container2{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        line-height: 1.25em;
+        font-size: 1.65em;
+        margin-top: -10vh;
+        /* height: 90vh; */
+        /* padding-left: 6.5vw; */
+        /* font-weight: 300; */
+        /* letter-spacing: 0.04em; */
+    }
+
+    .iconContainer{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        right: unset;
+        width: 100vw;
+        /* position: fixed; */
+        /* bottom: 0; */
+        /* z-index: 1; */
+        /* color: white; */
+    }
+
+    .iconContainer1{
+        /* display: flex; */
+        flex-direction: row;
+        /* align-items: center; */
+        /* position: relative; */
+        /* z-index: 1; */
+    }
+
+    .linkedInIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .gitHubIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .emailLink{
+        margin-bottom: 20px;
+        /* text-decoration: underline; */
+        margin-right: 0vw;
+        /* padding: 10px; */
+        writing-mode: horizontal-tb;
+        font-size: 1.5em;
+        /* color: grey; */
+        /* user-select: none; */
+    }
+
+    /* .emailLink:hover{
+        color: #0075FF;
+    } */
+
+    .line{
+        display: none;
+        /* border-left: 1px solid grey;
+        padding: 10px6vw    margin-right: 0.8em;
+        height: 12vh; */
+    }
+
+    /* .words{
+        z-index: 1;
+        width: fit-content;
+    } */
+
+    /* .myName{
+        color: #0075FF;
+        font-size: 2.5em;
+        line-height: 1.5em;
+        font-weight: 700;
+        width: fit-content;
+        z-index: 1;
+    } */
+
+    /* .btnContainer{
+        display: flex;
+        font-size: 1.5em;
+        align-items: center;
+        margin-top: 3.5vh;
+    } */
+
+    .projectBtn{
+        /* background-color: black; */
+        color: rgb(255, 0, 150);
+        /* font-size: 1.2rem; */
+        /* margin-top: 1.2vh; */
+        /* margin-right: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
+        border: 2px solid #0075FF;
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
+    }
+
+    /* .projectBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    } */
+
+    .resumeBtn{
+        /* background-color:black; */
+        color: rgb(255, 0, 150);
+        /* font-size: 1.2rem; */
+        /* margin-top: 1.2vh; */
+        /* margin-left: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
+        border: 2px solid #0075FF;
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
+    }
+
+    /* .resumeBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    } */
+
+    /* .linkTag{
+        display: flex;
+    } */
+
+    /* .gitHubIconHover:hover{
+        fill: #0075FF;
+    }  */
+
+    .gitHubSvg{
+        width: 28px;
+        height: 28px;
+    }
+
+    .linkedInIconSvg{
+        width: 24px;
+        height: 24px;
+    }
 }
 
-.iconContainer1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 1;
+@media (max-width: 768px){
+    /* .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+
+    .container2{
+        /* display: flex; */
+        /* flex-direction: column; */
+        align-items: center;
+        /* justify-content: center; */
+        line-height: 1.25em;
+        font-size: 1em;
+        height: 90vh;
+        padding-left: unset;
+        font-weight: 300;
+        margin-top: -25vh;
+        letter-spacing: 0.04em;
+    }
+
+    /* .iconContainer{ */
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* right: unset; */
+        /* width: 100vw; */
+        /* position: fixed; */
+        /* bottom: 0; */
+        /* z-index: 1; */
+        /* color: white; */
+    /* } */
+
+    /* .iconContainer1{ */
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* align-items: center; */
+        /* position: relative; */
+        /* z-index: 1; */
+    /* } */
+
+    /* .linkedInIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    }
+
+    .gitHubIcon{
+        padding-bottom: 15px;
+        margin-right: 2vw;
+    } */
+
+    .emailLink{
+        margin-bottom: 20px;
+        /* text-decoration: underline; */
+        /* margin-right: unset; */
+        /* padding: 10px; */
+        writing-mode: horizontal-tb;
+        font-size: 1.5em;
+        /* color: grey; */
+        /* user-select: none; */
+    }
+
+    /* .emailLink:hover{
+        color: #0075FF;
+    } */
+
+    .line{
+        display: none;
+        /* border-left: 1px solid grey;
+        padding: 10px6vw    margin-right: 0.8em;
+        height: 12vh; */
+    }
+
+    /* .words{
+        z-index: 1;
+        width: fit-content;
+    } */
+
+    /* .myName{
+        color: #0075FF;
+        font-size: 2.5em;
+        line-height: 1.5em;
+        font-weight: 700;
+        width: fit-content;
+        z-index: 1;
+    } */
+
+    /* .btnContainer{
+        display: flex;
+        font-size: 1.5em;
+        align-items: center;
+        margin-top: 3.5vh;
+    } */
+
+    .projectBtn{
+        /* background-color: black; */
+        color: rgb(255, 0, 150);
+        /* font-size: 1.2rem; */
+        /* margin-top: 1.2vh; */
+        /* margin-right: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
+        border: 2px solid #0075FF;
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
+    }
+
+    /* .projectBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    } */
+
+    .resumeBtn{
+        /* background-color:black; */
+        color: rgb(255, 0, 150);
+        /* font-size: 1.2rem; */
+        /* margin-top: 1.2vh; */
+        /* margin-left: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
+        border: 2px solid #0075FF;
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
+    }
+
+    /* .resumeBtn:hover{
+        background-color: black;
+        border: 2px solid #0075FF;
+        color: rgb(255, 0, 150);
+    } */
+
+    /* .linkTag{
+        display: flex;
+    } */
+
+    /* .gitHubIconHover:hover{
+        fill: #0075FF;
+    }  */
+
+    /* .gitHubSvg{
+        width: 28px;
+        height: 28px;
+    } */
+
+    /* .linkedInIconSvg{
+        width: 24px;
+        height: 24px;
+    } */
+    
 }
 
-.linkedInIcon{
-    padding-bottom: 15px;
-    padding-right: 5px;
-    margin-right: 1.5em;
-}
+@media (max-width: 480px){
+    .container2{
+        /* display: flex; */
+        /* flex-direction: column; */
+        align-items: center;
+        /* justify-content: center; */
+        line-height: 1.25em;
+        font-size: 0.75em;
+        height: 90vh;
+        padding-left: unset;
+        font-weight: 300;
+        /* margin-top: -10vh; */
+        letter-spacing: 0.04em;
+    }
 
-.gitHubIcon{
-    padding-bottom: 10px;
-    padding-right: 5px;
-    margin-right: 1.5em;
-}
+    .projectBtn{
+        /* background-color: black; */
+        /* color: rgb(255, 0, 150); */
+        font-size: 1rem;
+        margin-top: 0.4vh;
+        /* margin-right: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
+        /* border: 2px solid #0075FF; */
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
+    }
 
-.emailLink{
-    margin-bottom: 20px;
-    text-decoration: underline;
-    margin-right: 1.5em;
-    padding: 10px;
-    writing-mode: vertical-rl;
-    color: grey;
-    user-select: none;
-}
+    .myName{
+        color: #0075FF;
+        font-size: 2.0em;
+        /* font-weight: 700; */
+        /* width: fit-content; */
+        /* z-index: 1; */
+    }
 
-.emailLink:hover{
-    color: #0075FF;
-}
+    .resumeBtn{
+        /* background-color:black; */
+        /* color: rgb(255, 0, 150); */
+        font-size: 1rem;
+        margin-top: 0.4vh;
+        /* margin-left: 1vh; */
+        /* letter-spacing: 0.05em; */
+        /* z-index: 1; */
+        /* border: 2px solid #0075FF; */
+        /* border-radius: 5px; */
+        /* cursor: pointer; */
+    }
 
-.line{
-    border-left: 1px solid grey;
-    padding: 10px;
-    margin-right: 0.8em;
-    height: 10em;
-}
+    .emailLink{
+        margin-bottom: 2.5vh;
+        /* text-decoration: underline; */
+        /* margin-right: unset; */
+        /* padding: 10px; */
+        writing-mode: horizontal-tb;
+        font-size: 1em;
+        /* color: grey; */
+        /* user-select: none; */
+    }
 
-.words{
-    z-index: 1;
-    width: fit-content;
-}
+    .gitHubSvg{
+        width: 18px;
+        height: 18px;
+    }
 
-.myName{
-    color: #0075FF;
-    font-size: 2.5em;
-    line-height: 1.5em;
-    font-weight: 700;
-    width: fit-content;
-    z-index: 1;
-}
-
-.btnContainer{
-    display: flex;
-    font-size: 1.5em;
-    align-items: center;
-    margin-top: .75em;
-}
-
-.projectBtn{
-    background-color: black;
-    color: #0075FF;
-    font-size: 1.2rem;
-    margin-top: 0.65rem;
-    margin-right: 0.5rem;
-    letter-spacing: 0.05em;
-    z-index: 1;
-    border: 0;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.projectBtn:hover{
-    background-color: black;
-    border: 2px solid #0075FF;
-    color: rgb(255, 0, 150);
-}
-
-.resumeBtn{
-    background-color:black;
-    color: #0075FF;
-    font-size: 1.2rem;
-    margin-top: 0.65rem;
-    margin-left: 0.5rem;
-    letter-spacing: 0.05em;
-    z-index: 1;
-    border: 0;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.resumeBtn:hover{
-    background-color: black;
-    border: 2px solid #0075FF;
-    color: rgb(255, 0, 150);
-}
-
-.linkTag{
-    display: flex;
-}
-
-.gitHubIconHover:hover{
-    fill: #0075FF;
+    .linkedInIconSvg{
+        width: 14px;
+        height: 14px;
+    }
 }

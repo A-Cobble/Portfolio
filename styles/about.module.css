@@ -1,71 +1,321 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-    height: 50em;
+/*  
+    desktop:1200px;
+    laptop:1024px;
+    tablet:768px;
+    phone:480px;
+*/
+@media (min-width: 1501px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1;
+        height: 90vh;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .aboutContainer{
+        display: flex;
+    }
+
+    .textContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        padding-left: 7vw;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+    }
+
+    .introText{
+        z-index: 1;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .bioText{
+        z-index: 1;
+        width: 55vw;
+        height: fit-content;
+    }
+
+    .allSkills{
+        display: flex;
+        flex-direction: column;
+        width: 55vw;
+        margin-top: 10vh;
+    }
+    .skillsText{
+        line-height: 1.6rem;
+        font-weight: 300;
+        font-size: 1.3rem;
+        z-index: 1;
+    }
+
+    .bioTitle{
+        font-size: 2em;
+        font-weight: 500;
+        z-index: 1;
+    }
+
+    .skillsTitle{
+        font-size: 2em;
+        font-weight: 500;
+        z-index: 1;
+    }
+
+    .picContainer{
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        width: 38vw;
+        align-items: center;
+    }
 }
 
-.container1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+@media (max-width: 1500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1;
+        height: 90vh;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .aboutContainer{
+        display: flex;
+    }
+
+    .textContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        padding-left: 7vw;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+    }
+
+    .introText{
+        z-index: 1;
+        width: 50vw;
+        height: fit-content;
+    }
+
+    .bioText{
+        z-index: 1;
+        width: 50vw;
+        height: fit-content;
+    }
+
+    .allSkills{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin-top: 10vh;
+    }
+    .skillsText{
+        line-height: 1.6rem;
+        font-weight: 300;
+        font-size: 1.3rem;
+        z-index: 1;
+    }
+
+    .bioTitle{
+        font-size: 2em;
+        font-weight: 500;
+        z-index: 1;
+    }
+
+    .skillsTitle{
+        font-size: 2em;
+        font-weight: 500;
+        z-index: 1;
+    }
+
+    .picContainer{
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        width: 43vw;
+        align-items: center;
+    }
 }
 
-.aboutContainer{
-    display: flex;
-    margin-top: -2.5em;
+@media (max-width: 1200px){
+    .container{
+        /* display: flex; */
+        /* flex-direction: column; */
+        justify-content: flex-start;
+        /* z-index: 1; */
+        margin-top: 5vh;
+        /* height: 90vh; */
+    }
+
+    .container1{
+        /* display: flex; */
+        /* flex-direction: row; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .aboutContainer{
+        /* display: flex; */
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .textContainer{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* line-height: 1.5em; */
+        padding-left: unset;
+        /* font-weight: 300; */
+        /* letter-spacing: 0.04em; */
+        margin-top: 5vh;
+    }
+
+    .introText{
+        /* z-index: 1; */
+        width: 70vw;
+        /* height: fit-content; */
+    }
+
+    .bioText{
+        /* z-index: 1; */
+        width: 70vw;
+        /* height: fit-content; */
+    }
+
+    /* .allSkills{ */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* width: 70vw; */
+        /* margin-top: 10vh; */
+        /* margin-bottom: 10vh; */
+    /* } */
+
+    /* .skillsText{ */
+        /* line-height: 1.6rem; */
+        /* font-weight: 300; */
+        /* font-size: 1.3rem; */
+        /* z-index: 1; */
+    /* } */
+
+    /* .bioTitle{ */
+        /* font-size: 2em; */
+        /* font-weight: 500; */
+        /* z-index: 1; */
+    /* } */
+
+    /* .skillsTitle{ */
+        /* font-size: 2em; */
+        /* font-weight: 500; */
+        /* z-index: 1; */
+    /* } */
+
+    /* .picContainer{ */
+        /* z-index: 1; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* width: 43vw; */
+        /* align-items: center; */
+    /* }   */
 }
 
-.textContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 1.5em;
-    padding-left: 7em;
-    font-weight: 300;
-    letter-spacing: 0.04em;
-}
+@media (max-width: 768px){
+    /* .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        z-index: 1;
+        margin-top: 5vh;
+        height: 90vh;
+    } */
 
-.introText{
-    z-index: 1;
-    width: fit-content;
-    height: fit-content;
-}
+    /* .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    } */
 
-.bioText{
-    z-index: 1;
-    width: 50em;
-    height: fit-content;
-}
+    /* .aboutContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    } */
 
-.allSkills{
-    display: flex;
-    flex-direction: column;
-    width: 50em;
-    margin-top: 5rem;
-}
-.skillsText{
-    line-height: 1.6rem;
-    font-weight: 300;
-    font-size: 1.3rem;
-    z-index: 1;
-}
+    .textContainer{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* line-height: 1.5em; */
+        /* padding-left: unset; */
+        /* font-weight: 300; */
+        /* letter-spacing: 0.04em; */
+        /* margin-top: 5vh; */
+        font-size: 0.9em;
+    }
 
-.bioTitle{
-    font-size: 2em;
-    font-weight: 500;
-    z-index: 1;
-}
+    .introText{
+        /* z-index: 1; */
+        width: 80vw;
+        /* height: fit-content; */
+    }
 
-.skillsTitle{
-    font-size: 2em;
-    font-weight: 500;
-    z-index: 1;
-}
+    .bioText{
+        /* z-index: 1; */
+        width: 80vw;
+        /* height: fit-content; */
+    }
 
-.picContainer{
-    z-index: 1;
-    display: flex;
-    margin-left: 5em;
-    align-items: center;
+    .allSkills{
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: 80vw;
+        height: 50vh;
+        margin-top: unset;
+        justify-content: center;
+    }
+
+    .skillsText{
+        /* line-height: 1.6rem; */
+        /* font-weight: 300; */
+        font-size: 1rem;
+        /* z-index: 1; */
+    }
+
+    .bioTitle{
+        font-size: 1.75em;
+        font-weight: 400;
+        /* z-index: 1; */
+    }
+
+    .skillsTitle{
+        font-size: 1.75em;
+        font-weight: 400;
+        /* z-index: 1; */
+    }
+
+    /* .picContainer{
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        width: 43vw;
+        align-items: center;
+    } */
 }
