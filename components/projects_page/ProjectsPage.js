@@ -41,7 +41,7 @@ const ProjectsPage = () => {
               <div className={styles.btnContainer}>
                 <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/instructor-hub" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <span className={styles.divider}>{" | "}</span>
-                <a className={styles.projectDemo} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">Project Demo</a>
+                <a className={styles.projectDemo} href="https://drive.google.com/file/d/1WbfoHGMt5sVqZwbGxQvH-ploWGzTEhQ7/view" target="_blank" rel="noreferrer">Project Demo</a>
               </div>
             </div>
           </div>
