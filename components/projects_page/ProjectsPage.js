@@ -16,7 +16,7 @@ const ProjectsPage = () => {
         <div className={styles.projectsContainer}>
           <div className={styles.firstProject}>
             <div className={styles.image1}>
-              <a className={styles.imageLinks} href="https://www.youtube.com/watch?v=IM0lWfHRSpo" target="_blank" rel="noreferrer">
+              <a className={styles.imageLinks} href="https://drive.google.com/file/d/1WbfoHGMt5sVqZwbGxQvH-ploWGzTEhQ7/view" target="_blank" rel="noreferrer">
                 <Image className={styles.imageBorder} src={media[0]} width={300} height={150} alt="Instructor Hub project" />
               </a>
               <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
@@ -64,11 +64,11 @@ const ProjectsPage = () => {
               <div className={styles.btnContainer}>
                 <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Steam-Clone" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <span className={styles.divider}>{" | "}</span>
-                <a className={styles.projectDemo} href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">Project Demo</a>
+                <a className={styles.projectDemo} href="https://steamclonehosted-production.up.railway.app/" target="_blank" rel="noreferrer">Project Demo</a>
               </div>
             </div>
             <div className={styles.image2}>
-              <a className={styles.imageLinks} href="https://steam-clone-zqr0.onrender.com/" target="_blank" rel="noreferrer">
+              <a className={styles.imageLinks} href="https://steamclonehosted-production.up.railway.app/" target="_blank" rel="noreferrer">
                 <Image src={media[1]} width={300} height={150} alt="Steam Clone project" />
               </a>
               <a className={styles.imageLinks1} target="_blank" rel="noreferrer">
@@ -121,11 +121,11 @@ const ProjectsPage = () => {
               <div className={styles.btnContainer}>
                 <a className={styles.gitHubRepo} href="https://github.com/A-Cobble/Full-Stack-Project" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <span className={styles.divider}>{" | "}</span>
-                <a className={styles.projectDemo} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">Project Demo</a>
+                <a className={styles.projectDemo} href="https://dnd-character-sheet-production.up.railway.app/" target="_blank" rel="noreferrer">Project Demo</a>
               </div>
             </div>
             <div className={styles.image4}>
-              <a className={styles.imageLinks} href="https://guarded-citadel-95497.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a className={styles.imageLinks} href="https://dnd-character-sheet-production.up.railway.app/" target="_blank" rel="noreferrer">
                 <Image  src={media[3]} width={300} height={150} alt="Dungeons & Dragons Character Sheet project" />
               </a>
               <a className={styles.imageLinks1} target="_blank" rel="noreferrer">

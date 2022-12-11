@@ -28,16 +28,16 @@ const AboutMe = () => {
             </div>
             <br />
             <div className={styles.skillsText}>
-              {"Front End - JavaScript, Three.js, React, Next.js, Recoil, HTML5, CSS3, Axios"}
+              {"Front End - JavaScript, React, Next.js, jQuery, HTML5, CSS3, Git, npm, Agile Methodology, Visual Studio Code, React Native"}
             </div>
             <div className={styles.skillsText}>
-              {"Back End - C#, Node.js, Espress, PostgreSQL, SQL, MongoDB, Restful API Development"}
+              {"Back End - Node.js, PostgreSQL, SQL, MongoDB, RESTful API Development"}
             </div>
             <div className={styles.skillsText}>
-              {"Deployment - Heroku, Render"}
+              {"Deployment - Heroku, Render, Railway"}
             </div>
             <div className={styles.skillsText}>
-              {"Developer Tools - Auth0, npm, Bootstrap, Tailwind CSS, Agile Methodology, Visual Studio Code"}
+              {"Libraries - Three.js, Redux, Axios, Tailwind CSS, Bootstrap, Recoil, Auth0, Express.js"}
             </div>
           </div>
         </div>
